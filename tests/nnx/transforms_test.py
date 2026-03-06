@@ -61,12 +61,14 @@ class TestJIT(parameterized.TestCase):
     self.assertIs(m, m_out)
     self.assertIsInstance(m2, jax.Ref)
 
-  @parameterized.parameters(True, False)
-  def test_simple_double_call(self, graph_mode):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_simple_double_call(self, graph_mode, graph_updates):
     n = 0
     m = nnx.Linear(2, 3, rngs=nnx.Rngs(0))
 
-    @nnx.jit(graph=graph_mode)
+    @nnx.jit(graph=graph_mode, graph_updates=graph_updates)
     def f(m: nnx.Linear, x: jnp.ndarray) -> jnp.ndarray:
       nonlocal n
       n += 1
@@ -109,8 +111,10 @@ class TestJIT(parameterized.TestCase):
     m = Foo(2, 3, rngs=nnx.Rngs(0))
     assert n == 1
 
-  @parameterized.parameters(True, False)
-  def test_jit_on_call(self, graph_mode):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_jit_on_call(self, graph_mode, graph_updates):
     n = 0
 
     class Foo(nnx.Module):
@@ -120,7 +124,7 @@ class TestJIT(parameterized.TestCase):
         self.din = din
         self.dout = dout
 
-      @nnx.jit(graph=graph_mode)
+      @nnx.jit(graph=graph_mode, graph_updates=graph_updates)
       def __call__(self, x: jax.Array) -> jax.Array:
         nonlocal n
         n += 1
@@ -194,8 +198,10 @@ class TestJIT(parameterized.TestCase):
     assert m.a is a
     assert m.b is b
 
-  @parameterized.parameters(True, False)
-  def test_jit_custom_vjp(self, graph_mode):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_jit_custom_vjp(self, graph_mode, graph_updates):
     @nnx.custom_vjp
     def f(x, y):
       return jnp.sin(x) * y
@@ -209,7 +215,7 @@ class TestJIT(parameterized.TestCase):
 
     f.defvjp(f_fwd, f_bwd)
 
-    nnx_out = nnx.jit(f, graph=graph_mode)(jnp.array([1.0, 2.0]), jnp.array([3.0, 4.0]))
+    nnx_out = nnx.jit(f, graph=graph_mode, graph_updates=graph_updates)(jnp.array([1.0, 2.0]), jnp.array([3.0, 4.0]))
     jax_out = jax.jit(f)(jnp.array([1.0, 2.0]), jnp.array([3.0, 4.0]))
     assert (nnx_out == jax_out).all()
 
@@ -410,13 +416,15 @@ class TestJIT(parameterized.TestCase):
     cached_m2 = cached_f(m)
     self.assertIs(cached_m, cached_m2)
 
-  @parameterized.parameters(True, False)
-  def test_jit_wrapped(self, graph_mode):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_jit_wrapped(self, graph_mode, graph_updates):
     class Foo(nnx.Module):
       def __init__(self, *, rngs: nnx.Rngs):
         self.count = nnx.Variable(jnp.array(0))
 
-      @nnx.jit(graph=graph_mode)
+      @nnx.jit(graph=graph_mode, graph_updates=graph_updates)
       def __call__(self, x: jax.Array) -> jax.Array:
         self.count[...] += 1
         return x * 2
@@ -424,7 +432,7 @@ class TestJIT(parameterized.TestCase):
     m = Foo(rngs=nnx.Rngs(0))
     x = jnp.array(3.0)
 
-    @nnx.jit(graph=graph_mode)
+    @nnx.jit(graph=graph_mode, graph_updates=graph_updates)
     def f(m: nnx.Linear, x):
       return m(x)
 
@@ -442,12 +450,14 @@ class TestJIT(parameterized.TestCase):
     self.assertEqual(m.count[...], 2)
 
   @parameterized.parameters(
-    {'graph_mode': True, 'static_argnums': (2,), 'static_argnames': None},
-    {'graph_mode': True, 'static_argnums': None, 'static_argnames': ('use_relu',)},
-    {'graph_mode': False, 'static_argnums': (2,), 'static_argnames': None},
-    {'graph_mode': False, 'static_argnums': None, 'static_argnames': ('use_relu',)},
+    {'graph_mode': True, 'graph_updates': True, 'static_argnums': (2,), 'static_argnames': None},
+    {'graph_mode': True, 'graph_updates': True, 'static_argnums': None, 'static_argnames': ('use_relu',)},
+    {'graph_mode': True, 'graph_updates': False, 'static_argnums': (2,), 'static_argnames': None},
+    {'graph_mode': True, 'graph_updates': False, 'static_argnums': None, 'static_argnames': ('use_relu',)},
+    {'graph_mode': False, 'graph_updates': False, 'static_argnums': (2,), 'static_argnames': None},
+    {'graph_mode': False, 'graph_updates': False, 'static_argnums': None, 'static_argnames': ('use_relu',)},
   )
-  def test_jit_static_args_with_shardings(self, graph_mode, static_argnums, static_argnames):
+  def test_jit_static_args_with_shardings(self, graph_mode, graph_updates, static_argnums, static_argnames):
     """Test static arguments work correctly with in_shardings."""
     n_devices = jax.local_device_count()
     devices = mesh_utils.create_device_mesh((n_devices,))
@@ -464,7 +474,7 @@ class TestJIT(parameterized.TestCase):
 
     f = nnx.jit(fn, in_shardings=(x_sharding, None),
                 static_argnums=static_argnums, static_argnames=static_argnames,
-                graph=graph_mode)
+                graph=graph_mode, graph_updates=graph_updates)
     y_relu = f(x, 0.5, True)
     y_no_relu = f(x, 0.5, False)
     self.assertNotEqual(y_relu, y_no_relu)
@@ -690,18 +700,24 @@ class TestTreeJIT(parameterized.TestCase):
     out = f(donated, not_donated)
     np.testing.assert_allclose(out, 3.0)
 
-  def test_jit_partial_basic(self):
+  @parameterized.parameters(
+    (True, False), (False, False),
+  )
+  def test_jit_partial_basic(self, graph_mode, graph_updates):
     m = nnx.Linear(2, 3, rngs=nnx.Rngs(0))
 
     def f(m, x):
       return m(x)
 
-    f_jit = nnx.jit_partial(f, m, graph=False)
+    f_jit = nnx.jit_partial(f, m, graph=graph_mode, graph_updates=graph_updates)
     x = jnp.ones((1, 2))
     y = f_jit(x)
     self.assertEqual(y.shape, (1, 3))
 
-  def test_jit_partial_variable_update(self):
+  @parameterized.parameters(
+    (True, False), (False, False),
+  )
+  def test_jit_partial_variable_update(self, graph_mode, graph_updates):
     class Foo(nnx.Module):
       def __init__(self):
         self.count = nnx.Variable(jnp.array(0))
@@ -712,26 +728,32 @@ class TestTreeJIT(parameterized.TestCase):
       m.count[...] += 1
       return x * 2
 
-    f_jit = nnx.jit_partial(f, m, graph=False)
+    f_jit = nnx.jit_partial(f, m, graph=graph_mode, graph_updates=graph_updates)
     y = f_jit(jnp.array(3.0))
     np.testing.assert_allclose(y, 6.0)
     self.assertEqual(m.count[...], 1)
     y = f_jit(jnp.array(3.0))
     self.assertEqual(m.count[...], 2)
 
-  def test_jit_partial_multiple_args(self):
+  @parameterized.parameters(
+    (True, False), (False, False),
+  )
+  def test_jit_partial_multiple_args(self, graph_mode, graph_updates):
     m1 = nnx.Linear(2, 3, rngs=nnx.Rngs(0))
     m2 = nnx.Linear(3, 4, rngs=nnx.Rngs(1))
 
     def f(m1, m2, x):
       return m2(m1(x))
 
-    f_jit = nnx.jit_partial(f, m1, m2, graph=False)
+    f_jit = nnx.jit_partial(f, m1, m2, graph=graph_mode, graph_updates=graph_updates)
     x = jnp.ones((1, 2))
     y = f_jit(x)
     self.assertEqual(y.shape, (1, 4))
 
-  def test_jit_partial_no_retrace(self):
+  @parameterized.parameters(
+    (True, False), (False, False),
+  )
+  def test_jit_partial_no_retrace(self, graph_mode, graph_updates):
     n = 0
     m = nnx.Linear(2, 3, rngs=nnx.Rngs(0))
 
@@ -740,14 +762,17 @@ class TestTreeJIT(parameterized.TestCase):
       n += 1
       return m(x)
 
-    f_jit = nnx.jit_partial(f, m, graph=False)
+    f_jit = nnx.jit_partial(f, m, graph=graph_mode, graph_updates=graph_updates)
     x = jnp.ones((1, 2))
     f_jit(x)
     self.assertEqual(n, 1)
     f_jit(x)
     self.assertEqual(n, 1)
 
-  def test_jit_partial_no_retrace_after_mutation(self):
+  @parameterized.parameters(
+    (True, False), (False, False),
+  )
+  def test_jit_partial_no_retrace_after_mutation(self, graph_mode, graph_updates):
     n = 0
 
     class Foo(nnx.Module):
@@ -761,7 +786,7 @@ class TestTreeJIT(parameterized.TestCase):
       n += 1
       return x @ m.w[...]
 
-    f_jit = nnx.jit_partial(f, m, graph=False)
+    f_jit = nnx.jit_partial(f, m, graph=graph_mode, graph_updates=graph_updates)
     x = jnp.ones((1, 2))
     f_jit(x)
     self.assertEqual(n, 1)
@@ -770,12 +795,18 @@ class TestTreeJIT(parameterized.TestCase):
     self.assertEqual(n, 1)
     np.testing.assert_allclose(y, jnp.zeros((1, 3)))
 
-  def test_jit_partial_no_partial_args(self):
-    f_partial = nnx.jit_partial(lambda x: x * 2, graph=False)
+  @parameterized.parameters(
+    (True, False), (False, False),
+  )
+  def test_jit_partial_no_partial_args(self, graph_mode, graph_updates):
+    f_partial = nnx.jit_partial(lambda x: x * 2, graph=graph_mode, graph_updates=graph_updates)
     y = f_partial(jnp.array(3.0))
     np.testing.assert_allclose(y, 6.0)
 
-  def test_jit_partial_in_shardings_none_broadcast(self):
+  @parameterized.parameters(
+    (False, False),
+  )
+  def test_jit_partial_in_shardings_none_broadcast(self, graph_mode, graph_updates):
     n_devices = jax.local_device_count()
     devices = mesh_utils.create_device_mesh((n_devices,))
     mesh = jax.sharding.Mesh(devices, ('data',))
@@ -785,12 +816,15 @@ class TestTreeJIT(parameterized.TestCase):
     def f(m, x):
       return m(x)
 
-    f_jit = nnx.jit_partial(f, m, in_shardings=(None, None), graph=False)
+    f_jit = nnx.jit_partial(f, m, in_shardings=(None, None), graph=graph_mode, graph_updates=graph_updates)
     x = jnp.ones((n_devices, 4))
     y = f_jit(x)
     self.assertEqual(y.shape, (n_devices, 3))
 
-  def test_jit_partial_in_shardings_named(self):
+  @parameterized.parameters(
+    (False, False),
+  )
+  def test_jit_partial_in_shardings_named(self, graph_mode, graph_updates):
     n_devices = jax.local_device_count()
     devices = mesh_utils.create_device_mesh((n_devices,))
     mesh = jax.sharding.Mesh(devices, ('data',))
@@ -804,12 +838,15 @@ class TestTreeJIT(parameterized.TestCase):
     x_sharding = jax.sharding.NamedSharding(mesh, PS('data'))
     v_sharding = jax.sharding.NamedSharding(mesh, PS('data'))
     f_jit = nnx.jit_partial(
-        f, v, in_shardings=(v_sharding, x_sharding), graph=False)
+        f, v, in_shardings=(v_sharding, x_sharding), graph=graph_mode, graph_updates=graph_updates)
     x = jnp.ones((n_devices, 4))
     y = f_jit(x)
     self.assertEqual(y.shape, (n_devices, 4))
 
-  def test_jit_partial_mixed_shardings(self):
+  @parameterized.parameters(
+    (False, False),
+  )
+  def test_jit_partial_mixed_shardings(self, graph_mode, graph_updates):
     n_devices = jax.local_device_count()
     devices = mesh_utils.create_device_mesh((n_devices,))
     mesh = jax.sharding.Mesh(devices, ('data',))
@@ -823,12 +860,15 @@ class TestTreeJIT(parameterized.TestCase):
 
     x_sharding = jax.sharding.NamedSharding(mesh, PS('data'))
     f_jit = nnx.jit_partial(
-        f, m1, m2, in_shardings=(None, None, x_sharding), graph=False)
+        f, m1, m2, in_shardings=(None, None, x_sharding), graph=graph_mode, graph_updates=graph_updates)
     x = jnp.ones((n_devices, 4))
     y = f_jit(x)
     self.assertEqual(y.shape, (n_devices, 2))
 
-  def test_jit_partial_in_shardings_non_tuple(self):
+  @parameterized.parameters(
+    (True, False), (False, False),
+  )
+  def test_jit_partial_in_shardings_non_tuple(self, graph_mode, graph_updates):
     n_devices = jax.local_device_count()
     devices = mesh_utils.create_device_mesh((n_devices,))
     mesh = jax.sharding.Mesh(devices, ('data',))
@@ -840,12 +880,15 @@ class TestTreeJIT(parameterized.TestCase):
       return m(x)
 
     sharding = jax.sharding.NamedSharding(mesh, PS())
-    f_jit = nnx.jit_partial(f, m, in_shardings=sharding, graph=False)
+    f_jit = nnx.jit_partial(f, m, in_shardings=sharding, graph=graph_mode, graph_updates=graph_updates)
     x = jnp.ones((n_devices, 4))
     y = f_jit(x)
     self.assertEqual(y.shape, (n_devices, 3))
 
-  def test_jit_partial_train_step(self):
+  @parameterized.parameters(
+    (True, False), (False, False),
+  )
+  def test_jit_partial_train_step(self, graph_mode, graph_updates):
     model = nnx.Linear(2, 3, rngs=nnx.Rngs(0))
     optimizer = nnx.Optimizer(model, optax.adamw(1e-3), wrt=nnx.Param)
 
@@ -856,11 +899,30 @@ class TestTreeJIT(parameterized.TestCase):
       optimizer.update(model, grads)
       return loss
 
-    train_step_fn = nnx.jit_partial(train_step, model, optimizer, graph=False)
+    train_step_fn = nnx.jit_partial(train_step, model, optimizer, graph=graph_mode, graph_updates=graph_updates)
     for _ in range(2):
       x, y = jnp.ones((10, 2)), jnp.ones((10, 3))
       loss = train_step_fn(x, y)
       self.assertIsInstance(loss, jax.Array)
+
+  def test_jit_partial_shared_variable(self):
+    v = nnx.Param(jnp.array(1.0))
+
+    class Container(nnx.Module):
+      def __init__(self, v):
+        self.v = v
+
+    c1 = Container(v)
+    c2 = Container(v)
+
+    def f(c1, c2, x):
+      c1.v[...] += x
+      return c1.v[...] + c2.v[...]
+
+    f_jit = nnx.jit_partial(f, c1, c2, graph=True, graph_updates=False)
+    y = f_jit(jnp.array(1.0))
+    np.testing.assert_allclose(y, 4.0)
+    np.testing.assert_allclose(v[...], 2.0)
 
 
 class TestEvalShape(parameterized.TestCase):
@@ -949,8 +1011,10 @@ class TestShardMap(parameterized.TestCase):
 
     self.assertIsInstance(m.kernel.sharding, jax.sharding.NamedSharding)
 
-  @parameterized.parameters(True, False)
-  def test_basic_shardmap_variables(self, graph):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_basic_shardmap_variables(self, graph, graph_updates):
     n_devices = jax.local_device_count()
     devices = mesh_utils.create_device_mesh((n_devices,))
     mesh = jax.sharding.Mesh(devices, ('a',))
@@ -963,7 +1027,10 @@ class TestShardMap(parameterized.TestCase):
 
     self.assertNotIsInstance(w.sharding, jax.sharding.NamedSharding)
 
-    @nnx.shard_map(mesh=mesh, in_specs=(P(None, 'a'), P(), P()), out_specs=None, graph=graph)
+    @nnx.shard_map(
+      mesh=mesh, in_specs=(P(None, 'a'), P(), P()), out_specs=None,
+      graph=graph, graph_updates=graph_updates,
+    )
     def f(w, b, count):
       count[...] += 1
       self.assertEqual(w.shape, (16, 32 // n_devices))
@@ -971,7 +1038,7 @@ class TestShardMap(parameterized.TestCase):
 
     f(w, b, count)
 
-    if graph:
+    if graph and graph_updates:
       self.assertIsInstance(w.sharding, jax.sharding.NamedSharding)
       self.assertIsInstance(b.sharding, jax.sharding.NamedSharding)
     self.assertEqual(count[...], 1)
@@ -1006,8 +1073,10 @@ class TestShardMap(parameterized.TestCase):
     self.assertIsInstance(m.kernel.sharding, jax.sharding.NamedSharding)
     self.assertIsInstance(m.bias.sharding, jax.sharding.NamedSharding)
 
-  @parameterized.parameters(True, False)
-  def test_simple_data_parallel(self, graph):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_simple_data_parallel(self, graph, graph_updates):
     P = jax.sharding.PartitionSpec
     n_devices = jax.local_device_count()
 
@@ -1024,7 +1093,8 @@ class TestShardMap(parameterized.TestCase):
     x = jnp.ones((32, 2))
 
     @nnx.shard_map(
-      mesh=mesh, in_specs=(P(None), P('data')), out_specs=P('data'), graph=graph
+      mesh=mesh, in_specs=(P(None), P('data')), out_specs=P('data'),
+      graph=graph, graph_updates=graph_updates,
     )
     def f(m, x):
       self.assertEqual(x.shape, (32 // n_devices, 2))
@@ -1034,8 +1104,9 @@ class TestShardMap(parameterized.TestCase):
 
     self.assertEqual(y.shape, (32, 3))
     self.assertIsInstance(y.sharding, jax.sharding.NamedSharding)
-    self.assertIsInstance(m.kernel.sharding, jax.sharding.NamedSharding)
-    self.assertIsInstance(m.bias.sharding, jax.sharding.NamedSharding)
+    if graph and graph_updates:
+      self.assertIsInstance(m.kernel.sharding, jax.sharding.NamedSharding)
+      self.assertIsInstance(m.bias.sharding, jax.sharding.NamedSharding)
 
   def test_simple_tensor_parallel(self):
     P = jax.sharding.PartitionSpec
@@ -1072,8 +1143,10 @@ class TestShardMap(parameterized.TestCase):
 
     y = f(m, x)
 
-  @parameterized.parameters(True, False)
-  def test_shardmap_with_out_sharding(self, graph):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_shardmap_with_sharding_names(self, graph, graph_updates):
     n_devices = jax.local_device_count()
     P = jax.sharding.PartitionSpec
     mesh = jax.sharding.Mesh(jax.local_devices(), ('data',))
@@ -1088,7 +1161,7 @@ class TestShardMap(parameterized.TestCase):
 
     @nnx.shard_map(
       mesh=mesh, in_specs=(P('data', None), P(None)), out_specs=P('data', None),
-      graph=graph,
+      graph=graph, graph_updates=graph_updates,
     )
     def f(w, b):
       self.assertEqual(w.shape, (8 // n_devices, 4))
@@ -1099,8 +1172,10 @@ class TestShardMap(parameterized.TestCase):
     self.assertEqual(y.shape, (8, 4))
     self.assertIsInstance(y.sharding, jax.sharding.NamedSharding)
 
-  @parameterized.parameters(True, False)
-  def test_shardmap_out_sharding_mutation(self, graph):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_shardmap_sharding_names_mutation(self, graph, graph_updates):
     n_devices = jax.local_device_count()
     P = jax.sharding.PartitionSpec
     mesh = jax.sharding.Mesh(jax.local_devices(), ('data',))
@@ -1111,7 +1186,7 @@ class TestShardMap(parameterized.TestCase):
 
     @nnx.shard_map(
       mesh=mesh, in_specs=(P('data', None), P()), out_specs=P('data', None),
-      graph=graph,
+      graph=graph, graph_updates=graph_updates,
     )
     def f(w, count):
       count[...] += 1
@@ -1122,6 +1197,58 @@ class TestShardMap(parameterized.TestCase):
     self.assertEqual(count[...], 1)
     self.assertEqual(y.shape, (8, 4))
     np.testing.assert_allclose(w[...], jnp.zeros((8, 4)))
+
+  def test_shardmap_shared_variable(self):
+    P = jax.sharding.PartitionSpec
+    mesh = jax.sharding.Mesh(jax.local_devices(), ('data',))
+
+    v = nnx.Param(jnp.array(1.0))
+
+    class Container(nnx.Module):
+      def __init__(self, v):
+        self.v = v
+
+    c1 = Container(v)
+    c2 = Container(v)
+
+    @nnx.shard_map(
+      mesh=mesh, in_specs=(P(), P(), P()), out_specs=P(),
+      graph=True, graph_updates=True,
+    )
+    def f(c1, c2, x):
+      c1.v[...] += x
+      return c1.v[...] + c2.v[...]
+
+    y = f(c1, c2, jnp.array(1.0))
+    np.testing.assert_allclose(y, 4.0)
+    np.testing.assert_allclose(v[...], 2.0)
+
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_shardmap_module_variable_update(self, graph, graph_updates):
+    P = jax.sharding.PartitionSpec
+    mesh = jax.sharding.Mesh(jax.local_devices(), ('data',))
+
+    class Foo(nnx.Module):
+      def __init__(self):
+        self.count = nnx.Variable(jnp.array(0))
+
+    m = Foo()
+
+    @nnx.shard_map(
+      mesh=mesh, in_specs=(P(), P()), out_specs=P(),
+      graph=graph, graph_updates=graph_updates,
+    )
+    def f(m, x):
+      m.count[...] += 1
+      return x * 2
+
+    y = f(m, jnp.array(3.0))
+    np.testing.assert_allclose(y, 6.0)
+    self.assertEqual(m.count[...], 1)
+    y = f(m, jnp.array(3.0))
+    self.assertEqual(m.count[...], 2)
 
 
 class TestGrad(parameterized.TestCase):
@@ -4333,13 +4460,15 @@ class TestWhileLoop(parameterized.TestCase):
     np.testing.assert_array_equal(counter.count[...], 3)
     np.testing.assert_array_equal(y, x * 8)
 
-  @parameterized.parameters(True, False)
-  def test_tree_mode_while_loop_inside_jit(self, graph):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_tree_mode_while_loop_inside_jit(self, graph, graph_updates):
     module = nnx.Linear(10, 10, rngs=nnx.Rngs(0))
     module.kernel[...] = jnp.identity(10) * 2
     x = jax.random.normal(jax.random.key(0), (10,))
 
-    @nnx.jit(graph=graph)
+    @nnx.jit(graph=graph, graph_updates=graph_updates)
     def f(module, x):
       def body_fn(val):
         m, x, c = val
@@ -4378,13 +4507,15 @@ class TestWhileLoop(parameterized.TestCase):
     np.testing.assert_array_equal(counter.count[...], 3)
     np.testing.assert_array_equal(y, x * 8)
 
-  @parameterized.parameters(True, False)
-  def test_tree_mode_fori_loop_inside_jit(self, graph):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_tree_mode_fori_loop_inside_jit(self, graph, graph_updates):
     module = nnx.Linear(10, 10, rngs=nnx.Rngs(0))
     module.kernel[...] = jnp.identity(10) * 2
     x = jax.random.normal(jax.random.key(0), (10,))
 
-    @nnx.jit(graph=graph)
+    @nnx.jit(graph=graph, graph_updates=graph_updates)
     def f(module, x):
       def body_fn(i, val):
         m, x = val
@@ -4487,14 +4618,16 @@ class TestSplitMergeInputs(absltest.TestCase):
     )
 
 class TestCheckify(parameterized.TestCase):
-  @parameterized.parameters(True, False)
-  def test_basic(self, graph):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_basic(self, graph, graph_updates):
 
     @dataclasses.dataclass
     class Foo(nnx.Module):
       a: nnx.Param
 
-    @nnx.jit(graph=graph)
+    @nnx.jit(graph=graph, graph_updates=graph_updates)
     def f(m):
       y = jnp.sin(m.a)  # error
       return m.a + y
@@ -4505,11 +4638,13 @@ class TestCheckify(parameterized.TestCase):
     with self.assertRaisesRegex(ValueError, 'nan generated by primitive: sin'):
       err.throw()
 
-  @parameterized.parameters(True, False)
-  def test_checkify_stateful(self, graph):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_checkify_stateful(self, graph, graph_updates):
     count = nnx.Variable(jnp.array(0))
 
-    @nnx.jit(graph=graph)
+    @nnx.jit(graph=graph, graph_updates=graph_updates)
     def f(c):
       c[...] += 1
       return c[...]
@@ -4568,8 +4703,10 @@ class TestBoundMethodTransforms(parameterized.TestCase):
     with self.assertRaisesRegex(ValueError, 'bound methods'):
       nnx.graph.eval_shape(m.__call__, x_spec)
 
-  @parameterized.parameters(True, False)
-  def test_grad_with_bound_method_raises(self, graph_mode):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_grad_with_bound_method_raises(self, graph_mode, graph_updates):
     class M(nnx.Module):
       def __init__(self):
         self.w = nnx.Param(jnp.array(1.0))
@@ -4580,8 +4717,10 @@ class TestBoundMethodTransforms(parameterized.TestCase):
     with self.assertRaisesRegex(ValueError, 'bound methods'):
       nnx.grad(m.loss, graph=graph_mode)
 
-  @parameterized.parameters(True, False)
-  def test_value_and_grad_with_bound_method_raises(self, graph_mode):
+  @parameterized.parameters(
+    (True, True), (True, False), (False, False),
+  )
+  def test_value_and_grad_with_bound_method_raises(self, graph_mode, graph_updates):
     class TestModel(nnx.Module):
       def __init__(self, *, rngs: nnx.Rngs):
         self.linear = nnx.Linear(2, 1, rngs=rngs)
