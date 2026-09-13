@@ -1,0 +1,8993 @@
+[
+  {
+    "file": ".pre-commit-config.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "CHANGELOG.md",
+    "dependencies": [
+      "pattern.",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "AUTHORS",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "nnx.py",
+    "dependencies": [
+      "__version__",
+      "flax",
+      "flax.nnx",
+      "nnx",
+      "flax.version"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".readthedocs.yml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".git-blame-ignore-revs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "contributing.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "pylintrc",
+    "dependencies": [
+      "in",
+      "order",
+      "fallback"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/robots.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/conf_sphinx_patch.py",
+    "dependencies": [
+      "typing",
+      "Any",
+      "sphinx.ext.autosummary.generate",
+      "sphinx.ext.autodoc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/nnx_basics.md",
+    "dependencies": [
+      "optax",
+      "necessary",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/conf.py",
+    "dependencies": [
+      "logging",
+      "absl",
+      "doctest",
+      "sys",
+      "flax",
+      "jax.numpy",
+      "os",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides_advanced.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/Makefile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/mnist_tutorial.md",
+    "dependencies": [
+      "functools",
+      "partial",
+      "tensorflow_datasets",
+      "clear_output",
+      "matplotlib.pyplot",
+      "JaxModule",
+      "IPython.display",
+      "optax",
+      "flax",
+      "Optional",
+      "jax.numpy",
+      "orbax.export",
+      "tensorflow",
+      "typing",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/nnx_basics.ipynb",
+    "dependencies": [
+      "optax",
+      "necessary",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/key_concepts.ipynb",
+    "dependencies": [
+      "functools",
+      "partial",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/key_concepts.md",
+    "dependencies": [
+      "functools",
+      "partial",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/mnist_tutorial.ipynb",
+    "dependencies": [
+      "functools",
+      "partial",
+      "tensorflow_datasets",
+      "clear_output",
+      "matplotlib.pyplot",
+      "JaxModule",
+      "IPython.display",
+      "optax",
+      "flax",
+      "Optional",
+      "jax.numpy",
+      "orbax.export",
+      "tensorflow",
+      "typing",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/philosophy.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/.readthedocs.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/index.rst",
+    "dependencies": [
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/nnx_glossary.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/why.rst",
+    "dependencies": [
+      "optax",
+      "flax.linen",
+      "flax",
+      "random",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/faq.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides_basic.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/contributing.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/.gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/4105-jax-style-nnx-transforms.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/2434-general-metadata.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/4844-var-eager-sharding.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/2974-kw-only-dataclasses.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/0000-template.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/3099-rnnbase-refactor.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/1777-default-dtype.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/2396-rnn.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/1009-optimizer-api.md",
+    "dependencies": [
+      "functools",
+      "flax.training",
+      "tensorflow_datasets",
+      "optax",
+      "flax",
+      "flax.linen",
+      "jax.numpy",
+      "typing",
+      "tensorflow",
+      "jax",
+      "Callable",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/flip/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.struct.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.config.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.training.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.traverse_util.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.core.frozen_dict.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/helpers.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/graph.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/rnglib.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/spmd.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/bridge.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/filterlib.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/variables.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/state.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/summary.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/visualization.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/module.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/object.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/transforms.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/training/metrics.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/training/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/training/optimizer.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/recurrent.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/initializers.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/attention.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/stochastic.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/lora.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/dtypes.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/linear.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/normalization.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/api_reference/flax.nnx/nn/activations.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/checkpointing.md",
+    "dependencies": [
+      "orbax.checkpoint",
+      "flax",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/filters_guide.ipynb",
+    "dependencies": [
+      "Any",
+      "typing",
+      "nnx",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/demo.ipynb",
+    "dependencies": [
+      "nnx",
+      "numpy",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/filters_guide.md",
+    "dependencies": [
+      "Any",
+      "typing",
+      "nnx",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/transforms.md",
+    "dependencies": [
+      "nnx",
+      "numpy",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/surgery.md",
+    "dependencies": [
+      "functools",
+      "jax.experimental",
+      "orbax.checkpoint",
+      "lax",
+      "numpy",
+      "jax.sharding",
+      "pprint",
+      "PartitionSpec",
+      "mesh_utils",
+      "flax",
+      "jax",
+      "flax.traverse_util",
+      "typing",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/view.md",
+    "dependencies": [
+      "matplotlib.pyplot",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/transforms.ipynb",
+    "dependencies": [
+      "nnx",
+      "numpy",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/demo.md",
+    "dependencies": [
+      "nnx",
+      "numpy",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/blog.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/checkpointing.ipynb",
+    "dependencies": [
+      "orbax.checkpoint",
+      "flax",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/bridge_guide.md",
+    "dependencies": [
+      "jax.experimental",
+      "numpy",
+      "mesh_utils",
+      "flax",
+      "linen",
+      "os",
+      "flax.nnx",
+      "jax",
+      "typing",
+      "nnx",
+      "bridge"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/randomness.md",
+    "dependencies": [
+      "nnx",
+      "jax.numpy",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/pytree.ipynb",
+    "dependencies": [
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/surgery.ipynb",
+    "dependencies": [
+      "functools",
+      "jax.experimental",
+      "orbax.checkpoint",
+      "lax",
+      "numpy",
+      "jax.sharding",
+      "pprint",
+      "PartitionSpec",
+      "mesh_utils",
+      "flax",
+      "jax",
+      "flax.traverse_util",
+      "typing",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/performance.ipynb",
+    "dependencies": [
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/view.ipynb",
+    "dependencies": [
+      "matplotlib.pyplot",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/bridge_guide.ipynb",
+    "dependencies": [
+      "jax.experimental",
+      "numpy",
+      "mesh_utils",
+      "flax",
+      "linen",
+      "os",
+      "flax.nnx",
+      "jax",
+      "typing",
+      "nnx",
+      "bridge"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/pytree.md",
+    "dependencies": [
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/performance.md",
+    "dependencies": [
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/tiny_nnx.ipynb",
+    "dependencies": [
+      "hashlib",
+      "jax.numpy",
+      "random",
+      "jax",
+      "typing",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/jax_and_nnx_transforms.rst",
+    "dependencies": [
+      "nnx",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/randomness.ipynb",
+    "dependencies": [
+      "nnx",
+      "jax.numpy",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/flax_gspmd.md",
+    "dependencies": [
+      "functools",
+      "partial",
+      "orbax.checkpoint",
+      "jax.sharding",
+      "optax",
+      "PartitionSpec",
+      "flax",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/guides/flax_gspmd.ipynb",
+    "dependencies": [
+      "functools",
+      "partial",
+      "orbax.checkpoint",
+      "jax.sharding",
+      "optax",
+      "PartitionSpec",
+      "flax",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/examples/core_examples.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/examples/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/examples/gemma.md",
+    "dependencies": [
+      "kagglehub",
+      "userdata",
+      "clear_output",
+      "IPython.display",
+      "tempfile",
+      "sys",
+      "flax",
+      "from",
+      "os",
+      "sampler",
+      "google.colab",
+      "transformer",
+      "nnx",
+      "params",
+      "sentencepiece"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/examples/gemma.ipynb",
+    "dependencies": [
+      "kagglehub",
+      "userdata",
+      "clear_output",
+      "IPython.display",
+      "tempfile",
+      "sys",
+      "flax",
+      "from",
+      "os",
+      "sampler",
+      "google.colab",
+      "transformer",
+      "nnx",
+      "params",
+      "sentencepiece"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/migrating/convert_pytorch_to_flax.rst",
+    "dependencies": [
+      "numpy",
+      "torch",
+      "flax",
+      "random",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/migrating/haiku_to_flax.rst",
+    "dependencies": [
+      "haiku",
+      "optax",
+      "Any",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "typing",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/migrating/linen_to_nnx.rst",
+    "dependencies": [
+      "flax.training",
+      "optax",
+      "Any",
+      "flax.linen",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "typing",
+      "nnx",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/migrating/nnx_010_to_nnx_011.rst",
+    "dependencies": [
+      "optax",
+      "nnx",
+      "flax.nnx",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/migrating/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/hijax/index.rst",
+    "dependencies": [
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/hijax/hijax.md",
+    "dependencies": [
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/hijax/hijax.ipynb",
+    "dependencies": [
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/_ext/flax_module.py",
+    "dependencies": [
+      "importlib",
+      "sphinx",
+      "directives",
+      "ViewList",
+      "docutils",
+      "docutils.statemachine",
+      "docutils.parsers.rst",
+      "sphinx.ext.autosummary.generate",
+      "SphinxDirective",
+      "generate_autosummary_content",
+      "docs.conf_sphinx_patch",
+      "sphinx.util.docutils",
+      "nodes"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/_ext/codediff_test.py",
+    "dependencies": [
+      "codediff",
+      "parameterized",
+      "absl.testing",
+      "CodeDiffParser"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/_ext/codediff.py",
+    "dependencies": [
+      "sphinx",
+      "directives",
+      "ViewList",
+      "docutils",
+      "docutils.statemachine",
+      "docutils.parsers.rst",
+      "SphinxDirective",
+      "sphinx.util.docutils",
+      "nodes"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/_static/css/flax_theme.css",
+    "dependencies": [
+      "url"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs_nnx/_templates/autosummary/flax_module.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/quick_start.ipynb",
+    "dependencies": [
+      "flax.training",
+      "tensorflow_datasets",
+      "struct",
+      "matplotlib.pyplot",
+      "clu",
+      "optax",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "tensorflow",
+      "jax",
+      "metrics",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/robots.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/linen_intro.ipynb",
+    "dependencies": [
+      "functools",
+      "lax",
+      "Any",
+      "flax",
+      "linen",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/conf_sphinx_patch.py",
+    "dependencies": [
+      "typing",
+      "Any",
+      "sphinx.ext.autosummary.generate",
+      "sphinx.ext.autodoc"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/conf.py",
+    "dependencies": [
+      "logging",
+      "absl",
+      "doctest",
+      "sys",
+      "flax",
+      "jax.numpy",
+      "os",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/Makefile",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/linen_intro.md",
+    "dependencies": [
+      "functools",
+      "lax",
+      "Any",
+      "flax",
+      "linen",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/.readthedocs.yaml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/index.rst",
+    "dependencies": [
+      "flax.linen",
+      "random",
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/faq.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/quick_start.md",
+    "dependencies": [
+      "flax.training",
+      "tensorflow_datasets",
+      "struct",
+      "matplotlib.pyplot",
+      "clu",
+      "optax",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "tensorflow",
+      "jax",
+      "metrics",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/.gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/glossary.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/4105-jax-style-nnx-transforms.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/2434-general-metadata.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/2974-kw-only-dataclasses.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/0000-template.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/3099-rnnbase-refactor.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/1777-default-dtype.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/2396-rnn.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/1009-optimizer-api.md",
+    "dependencies": [
+      "functools",
+      "flax.training",
+      "tensorflow_datasets",
+      "optax",
+      "flax",
+      "flax.linen",
+      "jax.numpy",
+      "typing",
+      "tensorflow",
+      "jax",
+      "Callable",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/flip/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.serialization.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.struct.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.errors.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.training.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.traceback_util.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.cursor.rst",
+    "dependencies": [
+      "Any",
+      "dataclasses",
+      "cursor",
+      "typing",
+      "flax.cursor"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.jax_utils.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.core.frozen_dict.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/inspection.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/decorators.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/initializers.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/activation_functions.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/spmd.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/layers.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/init_apply.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/profiling.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/transformations.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/variable.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/api_reference/flax.linen/module.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_sharp_bits.ipynb",
+    "dependencies": [
+      "flax.linen",
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_sharp_bits.md",
+    "dependencies": [
+      "flax.linen",
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/quantization/fp8_basics.ipynb",
+    "dependencies": [
+      "jax._src",
+      "re",
+      "numpy",
+      "Any",
+      "test_util",
+      "pprint",
+      "flax",
+      "flax.linen",
+      "random",
+      "linen",
+      "jax",
+      "typing",
+      "fp8_ops"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/quantization/fp8_basics.md",
+    "dependencies": [
+      "jax._src",
+      "re",
+      "numpy",
+      "Any",
+      "test_util",
+      "pprint",
+      "flax",
+      "flax.linen",
+      "random",
+      "linen",
+      "jax",
+      "typing",
+      "fp8_ops"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/quantization/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_fundamentals/arguments.md",
+    "dependencies": [
+      "functools",
+      "partial",
+      "linen",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_fundamentals/setup_or_nncompact.rst",
+    "dependencies": [
+      "flax.linen"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_fundamentals/flax_basics.md",
+    "dependencies": [
+      "functools",
+      "partial",
+      "optax",
+      "Any",
+      "flax",
+      "linen",
+      "random",
+      "jax",
+      "serialization",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_fundamentals/state_params.rst",
+    "dependencies": [
+      "functools",
+      "partial",
+      "optax",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "random",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_fundamentals/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_fundamentals/rng_guide.md",
+    "dependencies": [
+      "jax.experimental",
+      "jax.experimental.shard_map",
+      "some",
+      "jax.sharding",
+      "shard_map",
+      "mesh_utils",
+      "flax",
+      "hashlib",
+      "os",
+      "Mesh",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_fundamentals/rng_guide.ipynb",
+    "dependencies": [
+      "jax.experimental",
+      "jax.experimental.shard_map",
+      "some",
+      "jax.sharding",
+      "shard_map",
+      "mesh_utils",
+      "flax",
+      "hashlib",
+      "os",
+      "Mesh",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/flax_fundamentals/flax_basics.ipynb",
+    "dependencies": [
+      "functools",
+      "partial",
+      "optax",
+      "Any",
+      "flax",
+      "linen",
+      "random",
+      "jax",
+      "serialization",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/parallel_training/ensembling.rst",
+    "dependencies": [
+      "functools",
+      "flax.training",
+      "absl",
+      "numpy",
+      "optax",
+      "jax_utils",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "jax",
+      "logging",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/parallel_training/flax_on_pjit.md",
+    "dependencies": [
+      "mesh_utils",
+      "and",
+      "Mesh",
+      "flax.core",
+      "flax.training",
+      "jax.experimental",
+      "freeze",
+      "jax.sharding",
+      "functools",
+      "lax",
+      "struct",
+      "optax",
+      "flax",
+      "Optional",
+      "os",
+      "jax",
+      "typing",
+      "jax.lax",
+      "train_state",
+      "with_sharding_constraint",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/parallel_training/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/parallel_training/flax_on_pjit.ipynb",
+    "dependencies": [
+      "mesh_utils",
+      "and",
+      "Mesh",
+      "flax.core",
+      "flax.training",
+      "jax.experimental",
+      "freeze",
+      "jax.sharding",
+      "functools",
+      "lax",
+      "struct",
+      "optax",
+      "flax",
+      "Optional",
+      "os",
+      "jax",
+      "typing",
+      "jax.lax",
+      "train_state",
+      "with_sharding_constraint",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/training_techniques/transfer_learning.md",
+    "dependencies": [
+      "clear_output",
+      "IPython.display",
+      "optax",
+      "TrainState",
+      "flax.training.train_state",
+      "flax.linen",
+      "transformers",
+      "flax",
+      "FlaxCLIPModel",
+      "jax.numpy",
+      "typing",
+      "jax",
+      "Callable",
+      "traverse_util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/training_techniques/use_checkpointing.md",
+    "dependencies": [
+      "flax.training",
+      "orbax.checkpoint",
+      "struct",
+      "numpy",
+      "jax.sharding",
+      "orbax_utils",
+      "optax",
+      "checkpoints",
+      "flax",
+      "PartitionSpec",
+      "Optional",
+      "os",
+      "jax",
+      "random",
+      "linen",
+      "shutil",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/training_techniques/dropout.rst",
+    "dependencies": [
+      "flax.training",
+      "optax",
+      "flax.linen",
+      "jax.numpy",
+      "jax",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/training_techniques/transfer_learning.ipynb",
+    "dependencies": [
+      "clear_output",
+      "IPython.display",
+      "optax",
+      "TrainState",
+      "flax.training.train_state",
+      "flax.linen",
+      "transformers",
+      "flax",
+      "FlaxCLIPModel",
+      "jax.numpy",
+      "typing",
+      "jax",
+      "Callable",
+      "traverse_util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/training_techniques/use_checkpointing.ipynb",
+    "dependencies": [
+      "flax.training",
+      "orbax.checkpoint",
+      "struct",
+      "numpy",
+      "jax.sharding",
+      "orbax_utils",
+      "optax",
+      "checkpoints",
+      "flax",
+      "PartitionSpec",
+      "Optional",
+      "os",
+      "jax",
+      "random",
+      "linen",
+      "shutil",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/training_techniques/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/training_techniques/batch_norm.rst",
+    "dependencies": [
+      "flax.training",
+      "FrozenDict",
+      "optax",
+      "Any",
+      "flax.linen",
+      "jax.numpy",
+      "flax.core",
+      "jax",
+      "typing",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/training_techniques/lr_schedule.rst",
+    "dependencies": [
+      "functools",
+      "logging",
+      "tensorflow_datasets",
+      "ml_collections",
+      "flax.training",
+      "absl",
+      "numpy",
+      "optax",
+      "flax.linen",
+      "jax.numpy",
+      "jax",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/model_inspection/model_surgery.ipynb",
+    "dependencies": [
+      "functools",
+      "freeze",
+      "optax",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "flax.core",
+      "jax",
+      "traverse_util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/model_inspection/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/model_inspection/model_surgery.md",
+    "dependencies": [
+      "functools",
+      "freeze",
+      "optax",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "flax.core",
+      "jax",
+      "traverse_util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/model_inspection/extracting_intermediates.rst",
+    "dependencies": [
+      "FrozenDict",
+      "Sequence",
+      "flax.linen",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "flax.core",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/converting_and_upgrading/convert_pytorch_to_flax.rst",
+    "dependencies": [
+      "numpy",
+      "torch",
+      "flax",
+      "linen",
+      "random",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/converting_and_upgrading/optax_update_guide.rst",
+    "dependencies": [
+      "optax",
+      "flax.linen",
+      "flax",
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/converting_and_upgrading/orbax_upgrade_guide.rst",
+    "dependencies": [
+      "orbax",
+      "flax.training",
+      "orbax.checkpoint",
+      "numpy",
+      "nest_asyncio",
+      "checkpoints",
+      "flax",
+      "shutil",
+      "jax.numpy",
+      "os",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/converting_and_upgrading/regular_dict_upgrade_guide.rst",
+    "dependencies": [
+      "flax.linen",
+      "jax.numpy",
+      "jax",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/converting_and_upgrading/linen_upgrade_guide.rst",
+    "dependencies": [
+      "flax.training",
+      "partial",
+      "functools",
+      "lax",
+      "initializers",
+      "numpy",
+      "nn",
+      "optax",
+      "Any",
+      "flax.linen",
+      "flax",
+      "random",
+      "jax.numpy",
+      "linen",
+      "jax",
+      "typing",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/converting_and_upgrading/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/converting_and_upgrading/haiku_migration_guide.rst",
+    "dependencies": [
+      "haiku",
+      "optax",
+      "flax.linen",
+      "random",
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/converting_and_upgrading/rnncell_upgrade_guide.rst",
+    "dependencies": [
+      "functools",
+      "jax.numpy",
+      "jax",
+      "flax.linen"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/data_preprocessing/loading_datasets.md",
+    "dependencies": [
+      "tensorflow_datasets",
+      "load_dataset",
+      "torchvision",
+      "jax.numpy",
+      "numpy",
+      "datasets"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/data_preprocessing/loading_datasets.ipynb",
+    "dependencies": [
+      "tensorflow_datasets",
+      "load_dataset",
+      "torchvision",
+      "jax.numpy",
+      "numpy",
+      "datasets"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/data_preprocessing/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/guides/data_preprocessing/full_eval.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/google_research_examples.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/community_examples.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/repositories_that_use_flax.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/core_examples.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/examples/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/_ext/flax_module.py",
+    "dependencies": [
+      "importlib",
+      "sphinx",
+      "directives",
+      "ViewList",
+      "docutils",
+      "docutils.statemachine",
+      "docutils.parsers.rst",
+      "sphinx.ext.autosummary.generate",
+      "SphinxDirective",
+      "generate_autosummary_content",
+      "docs.conf_sphinx_patch",
+      "sphinx.util.docutils",
+      "nodes"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/_ext/codediff_test.py",
+    "dependencies": [
+      "codediff",
+      "parameterized",
+      "absl.testing",
+      "CodeDiffParser"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/_ext/codediff.py",
+    "dependencies": [
+      "sphinx",
+      "directives",
+      "ViewList",
+      "docutils",
+      "docutils.statemachine",
+      "docutils.parsers.rst",
+      "SphinxDirective",
+      "sphinx.util.docutils",
+      "nodes"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/developer_notes/index.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/developer_notes/lift.md",
+    "dependencies": [
+      "lift",
+      "Scope",
+      "flax",
+      "random",
+      "linen",
+      "flax.core",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/developer_notes/module_lifecycle.rst",
+    "dependencies": [
+      "Any",
+      "flax",
+      "linen",
+      "random",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/_static/css/flax_theme.css",
+    "dependencies": [
+      "url"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/_templates/autosummary/flax_module.rst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/seed_rl_atari_preprocessing.py",
+    "dependencies": [
+      "gymnasium",
+      "cv2",
+      "Box",
+      "gymnasium.spaces.box",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/ppo_main.py",
+    "dependencies": [
+      "ml_collections",
+      "env_utils",
+      "absl",
+      "gymnasium",
+      "app",
+      "models",
+      "ale_py",
+      "ppo_lib",
+      "flags",
+      "tensorflow",
+      "config_flags"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/test_episodes.py",
+    "dependencies": [
+      "env_utils",
+      "collections.abc",
+      "itertools",
+      "Any",
+      "flax",
+      "agent",
+      "typing",
+      "numpy",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/env_utils.py",
+    "dependencies": [
+      "seed_rl_atari_preprocessing",
+      "collections",
+      "numpy",
+      "gymnasium"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/agent.py",
+    "dependencies": [
+      "functools",
+      "env_utils",
+      "multiprocessing",
+      "collections.abc",
+      "numpy",
+      "Any",
+      "flax",
+      "collections",
+      "typing",
+      "jax",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/models.py",
+    "dependencies": [
+      "linen",
+      "jax.numpy",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/ppo_lib.py",
+    "dependencies": [
+      "tensorboard",
+      "Any",
+      "test_episodes",
+      "logging",
+      "flax.training",
+      "models",
+      "checkpoints",
+      "jax.numpy",
+      "Callable",
+      "functools",
+      "absl",
+      "optax",
+      "flax",
+      "agent",
+      "jax",
+      "typing",
+      "train_state",
+      "ml_collections",
+      "flax.metrics",
+      "collections.abc",
+      "linen",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/ppo_lib_test.py",
+    "dependencies": [
+      "flax.training",
+      "ml_collections",
+      "absl.testing",
+      "env_utils",
+      "gymnasium",
+      "models",
+      "ale_py",
+      "ppo_lib",
+      "numpy.testing",
+      "agent",
+      "jax",
+      "numpy",
+      "train_state",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ppo/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/imagenet_fake_data_benchmark.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "absl.testing",
+      "Benchmark",
+      "configs",
+      "pathlib",
+      "time",
+      "fake_data_benchmark",
+      "flax.testing",
+      "jax",
+      "train",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/models_test.py",
+    "dependencies": [
+      "absl.testing",
+      "models",
+      "parameterized",
+      "jax",
+      "numpy",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/imagenet_benchmark.py",
+    "dependencies": [
+      "flagsaver",
+      "absl.testing",
+      "absl.testing.flagsaver",
+      "absl",
+      "numpy",
+      "Benchmark",
+      "main",
+      "v100_x8_mixed_precision",
+      "time",
+      "configs",
+      "flags",
+      "flax.testing",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/imagenet.ipynb",
+    "dependencies": [
+      "tensorflow_datasets",
+      "matplotlib",
+      "files",
+      "logging",
+      "flax.training",
+      "models",
+      "configs",
+      "drive",
+      "checkpoints",
+      "json",
+      "jax.numpy",
+      "google.colab",
+      "display",
+      "IPython",
+      "absl",
+      "flax",
+      "os",
+      "tensorflow",
+      "input_pipeline",
+      "jax",
+      "train",
+      "importlib",
+      "default",
+      "numpy",
+      "pyplot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/README.md",
+    "dependencies": [
+      "tensorflow_datasets"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/models.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "collections.abc",
+      "Any",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "typing",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/train.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "Any",
+      "jax_utils",
+      "logging",
+      "flax.training",
+      "dynamic_scale",
+      "common_utils",
+      "models",
+      "time",
+      "checkpoints",
+      "jax.numpy",
+      "metric_writers",
+      "functools",
+      "orbax.checkpoint",
+      "lax",
+      "periodic_actions",
+      "absl",
+      "optax",
+      "flax",
+      "tensorflow",
+      "input_pipeline",
+      "typing",
+      "train_state",
+      "ml_collections",
+      "clu",
+      "random",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/train_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "default",
+      "absl.testing",
+      "models",
+      "parameterized",
+      "pathlib",
+      "tempfile",
+      "configs",
+      "random",
+      "tensorflow",
+      "jax",
+      "train",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/main.py",
+    "dependencies": [
+      "logging",
+      "ml_collections",
+      "platform",
+      "absl",
+      "app",
+      "clu",
+      "flags",
+      "tensorflow",
+      "config_flags",
+      "jax",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/input_pipeline.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "tensorflow",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/configs/v100_x8_mixed_precision.py",
+    "dependencies": [
+      "configs",
+      "default"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/configs/v100_x8.py",
+    "dependencies": [
+      "configs",
+      "default"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/configs/fake_data_benchmark.py",
+    "dependencies": [
+      "configs",
+      "default",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/imagenet/configs/tpu.py",
+    "dependencies": [
+      "configs",
+      "default"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/seq2seq.ipynb",
+    "dependencies": [
+      "logging",
+      "IPython",
+      "absl",
+      "app",
+      "models",
+      "drive",
+      "files",
+      "time",
+      "os",
+      "jax",
+      "google.colab",
+      "input_pipeline",
+      "display",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/models.py",
+    "dependencies": [
+      "Tuple",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/train.py",
+    "dependencies": [
+      "Any",
+      "logging",
+      "flax.training",
+      "mask_sequences",
+      "app",
+      "models",
+      "flags",
+      "jax.numpy",
+      "metric_writers",
+      "functools",
+      "absl",
+      "get_sequence_lengths",
+      "optax",
+      "flax",
+      "input_pipeline",
+      "typing",
+      "train_state",
+      "CharacterTable",
+      "clu",
+      "linen",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/train_test.py",
+    "dependencies": [
+      "functools",
+      "flax.training",
+      "absl.testing",
+      "numpy",
+      "models",
+      "optax",
+      "random",
+      "input_pipeline",
+      "jax",
+      "train",
+      "train_state",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/main.py",
+    "dependencies": [
+      "ml_collections",
+      "absl",
+      "app",
+      "flags",
+      "config_flags",
+      "logging",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/input_pipeline.py",
+    "dependencies": [
+      "collections.abc",
+      "Any",
+      "random",
+      "jax.numpy",
+      "numpy",
+      "typing",
+      "Generator"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/seq2seq/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/models.py",
+    "dependencies": [
+      "flax",
+      "linen",
+      "jax.numpy",
+      "random",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/train.py",
+    "dependencies": [
+      "flax.training",
+      "ml_collections",
+      "tensorflow_datasets",
+      "absl",
+      "models",
+      "optax",
+      "Any",
+      "utils",
+      "flax",
+      "linen",
+      "random",
+      "jax",
+      "jax.numpy",
+      "input_pipeline",
+      "logging",
+      "tensorflow",
+      "typing",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/utils.py",
+    "dependencies": [
+      "PIL",
+      "jax.numpy",
+      "Image",
+      "numpy",
+      "math"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/main.py",
+    "dependencies": [
+      "logging",
+      "ml_collections",
+      "platform",
+      "absl",
+      "app",
+      "clu",
+      "flags",
+      "tensorflow",
+      "config_flags",
+      "jax",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/input_pipeline.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "jax.numpy",
+      "tensorflow",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/vae/results/.gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/temperature_sampler.py",
+    "dependencies": [
+      "random",
+      "lax",
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/temperature_sampler_test.py",
+    "dependencies": [
+      "absl.testing",
+      "temperature_sampler",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "temperature_sample",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/models.py",
+    "dependencies": [
+      "lax",
+      "struct",
+      "collections.abc",
+      "Any",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "typing",
+      "jax",
+      "numpy",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/train.py",
+    "dependencies": [
+      "logging",
+      "flax.training",
+      "common_utils",
+      "models",
+      "jax.sharding",
+      "temperature_sampler",
+      "checkpoints",
+      "collections",
+      "jax.numpy",
+      "metric_writers",
+      "periodic_actions",
+      "absl",
+      "optax",
+      "utils",
+      "PartitionSpec",
+      "flax",
+      "os",
+      "tensorflow",
+      "input_pipeline",
+      "jax",
+      "ml_collections",
+      "clu",
+      "linen",
+      "random",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/train_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "default",
+      "absl.testing",
+      "absl",
+      "configs",
+      "pathlib",
+      "tempfile",
+      "sys",
+      "jax",
+      "tensorflow",
+      "logging",
+      "train",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/utils.py",
+    "dependencies": [
+      "functools",
+      "logging",
+      "flax.training",
+      "jax.experimental",
+      "mesh_utils",
+      "flax.linen",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "partitioning",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/main.py",
+    "dependencies": [
+      "logging",
+      "ml_collections",
+      "platform",
+      "absl",
+      "app",
+      "clu",
+      "flags",
+      "tensorflow",
+      "config_flags",
+      "jax",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/input_pipeline_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "default",
+      "absl.testing",
+      "configs",
+      "pathlib",
+      "tempfile",
+      "sys",
+      "os",
+      "input_pipeline",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/input_pipeline.py",
+    "dependencies": [
+      "ml_collections",
+      "tensorflow_datasets",
+      "deterministic_data",
+      "Dict",
+      "clu",
+      "os",
+      "tensorflow",
+      "typing",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/tokenizer.py",
+    "dependencies": [
+      "collections.abc",
+      "absl",
+      "Any",
+      "time",
+      "sys",
+      "tempfile",
+      "SentencePieceTrainer",
+      "os",
+      "Iterable",
+      "jax",
+      "tensorflow",
+      "logging",
+      "typing",
+      "tensorflow_text",
+      "dataclasses",
+      "sentencepiece"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/lm1b/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/ogbg_molpcba.ipynb",
+    "dependencies": [
+      "tensorflow_datasets",
+      "matplotlib",
+      "files",
+      "logging",
+      "configs",
+      "drive",
+      "jax.numpy",
+      "google.colab",
+      "display",
+      "IPython",
+      "absl",
+      "pprint",
+      "flax",
+      "os",
+      "input_pipeline",
+      "train",
+      "default",
+      "numpy",
+      "pyplot",
+      "jraph"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/models_test.py",
+    "dependencies": [
+      "absl.testing",
+      "models",
+      "parameterized",
+      "jax.numpy",
+      "jax",
+      "jraph",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/models.py",
+    "dependencies": [
+      "collections.abc",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "Callable",
+      "jraph"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/train.py",
+    "dependencies": [
+      "Any",
+      "flax.core",
+      "logging",
+      "flax.training",
+      "models",
+      "parameter_overview",
+      "jax.numpy",
+      "metric_writers",
+      "checkpoint",
+      "periodic_actions",
+      "absl",
+      "optax",
+      "flax",
+      "flax.linen",
+      "os",
+      "Iterable",
+      "sklearn.metrics",
+      "tensorflow",
+      "jax",
+      "input_pipeline",
+      "typing",
+      "metrics",
+      "train_state",
+      "ml_collections",
+      "collections.abc",
+      "clu",
+      "numpy",
+      "jraph"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/train_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "test",
+      "absltest",
+      "flax.training",
+      "absl.testing",
+      "configs",
+      "parameterized",
+      "pathlib",
+      "functools",
+      "flax",
+      "tensorflow",
+      "input_pipeline",
+      "typing",
+      "jax",
+      "train",
+      "train_state",
+      "default",
+      "Dict",
+      "tempfile",
+      "numpy",
+      "jraph",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/main.py",
+    "dependencies": [
+      "logging",
+      "ml_collections",
+      "platform",
+      "absl",
+      "app",
+      "clu",
+      "flags",
+      "tensorflow",
+      "config_flags",
+      "jax",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/ogbg_molpcba_benchmark.py",
+    "dependencies": [
+      "default",
+      "absl.testing",
+      "absl",
+      "numpy",
+      "Benchmark",
+      "main",
+      "configs",
+      "time",
+      "flags",
+      "flax.testing",
+      "jax",
+      "test",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/input_pipeline_test.py",
+    "dependencies": [
+      "absl.testing",
+      "parameterized",
+      "tensorflow",
+      "input_pipeline",
+      "jraph",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/input_pipeline.py",
+    "dependencies": [
+      "functools",
+      "tensorflow_datasets",
+      "Dict",
+      "tensorflow",
+      "numpy",
+      "typing",
+      "jraph"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/configs/default_graph_net.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/configs/test.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/ogbg_molpcba/configs/hparam_sweep.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/bleu.py",
+    "dependencies": [
+      "re",
+      "sys",
+      "collections",
+      "unicodedata",
+      "numpy",
+      "math"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/models.py",
+    "dependencies": [
+      "lax",
+      "struct",
+      "collections.abc",
+      "Any",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "typing",
+      "jax",
+      "numpy",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/train.py",
+    "dependencies": [
+      "jax_utils",
+      "logging",
+      "flax.training",
+      "dynamic_scale",
+      "common_utils",
+      "decode",
+      "models",
+      "checkpoints",
+      "collections",
+      "jax.numpy",
+      "bleu",
+      "metric_writers",
+      "functools",
+      "orbax.checkpoint",
+      "periodic_actions",
+      "absl",
+      "optax",
+      "flax",
+      "os",
+      "tensorflow",
+      "input_pipeline",
+      "jax",
+      "train_state",
+      "ml_collections",
+      "clu",
+      "linen",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/train_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "default",
+      "absl.testing",
+      "absl",
+      "configs",
+      "pathlib",
+      "tempfile",
+      "sys",
+      "jax",
+      "tensorflow",
+      "logging",
+      "train",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/main.py",
+    "dependencies": [
+      "logging",
+      "ml_collections",
+      "platform",
+      "absl",
+      "app",
+      "clu",
+      "flags",
+      "tensorflow",
+      "config_flags",
+      "jax",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/input_pipeline_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "default",
+      "absl.testing",
+      "configs",
+      "pathlib",
+      "tempfile",
+      "sys",
+      "os",
+      "input_pipeline",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/input_pipeline.py",
+    "dependencies": [
+      "ml_collections",
+      "tensorflow_datasets",
+      "deterministic_data",
+      "Dict",
+      "clu",
+      "os",
+      "tensorflow",
+      "typing",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/tokenizer.py",
+    "dependencies": [
+      "collections.abc",
+      "absl",
+      "Any",
+      "time",
+      "tempfile",
+      "sys",
+      "SentencePieceTrainer",
+      "os",
+      "Iterable",
+      "jax",
+      "tensorflow",
+      "logging",
+      "typing",
+      "tensorflow_text",
+      "dataclasses",
+      "sentencepiece"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/decode.py",
+    "dependencies": [
+      "lax",
+      "numpy",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/wmt/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/linen_design_test/mlp_lazy.py",
+    "dependencies": [
+      "Dense",
+      "dense",
+      "pprint",
+      "flax",
+      "flax.linen",
+      "linen",
+      "jax",
+      "numpy",
+      "Module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/linen_design_test/autoencoder.py",
+    "dependencies": [
+      "Tuple",
+      "collections.abc",
+      "flax",
+      "flax.linen",
+      "linen",
+      "Iterable",
+      "jax",
+      "numpy",
+      "Module",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/linen_design_test/mlp_explicit.py",
+    "dependencies": [
+      "Dense",
+      "numpy",
+      "dense",
+      "nn",
+      "pprint",
+      "flax.linen",
+      "Optional",
+      "jax",
+      "Module",
+      "typing",
+      "flax.deprecated"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/linen_design_test/linear_regression.py",
+    "dependencies": [
+      "dense",
+      "Dense",
+      "numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/linen_design_test/mlp_inline.py",
+    "dependencies": [
+      "Dense",
+      "collections.abc",
+      "dense",
+      "flax",
+      "flax.linen",
+      "linen",
+      "Iterable",
+      "jax",
+      "numpy",
+      "Module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/linen_design_test/dense.py",
+    "dependencies": [
+      "lax",
+      "initializers",
+      "collections.abc",
+      "flax.linen",
+      "jax",
+      "Module",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/linen_design_test/attention_simple.py",
+    "dependencies": [
+      "functools",
+      "flax.core.frozen_dict",
+      "lax",
+      "initializers",
+      "collections.abc",
+      "PrecisionLike",
+      "Any",
+      "unfreeze",
+      "pprint",
+      "flax.linen",
+      "flax.linen.linear",
+      "typing",
+      "jax",
+      "Module",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nlp_seq/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nlp_seq/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nlp_seq/models.py",
+    "dependencies": [
+      "struct",
+      "collections.abc",
+      "Any",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "typing",
+      "numpy",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nlp_seq/train.py",
+    "dependencies": [
+      "tensorboard",
+      "jax_utils",
+      "logging",
+      "flax.training",
+      "common_utils",
+      "app",
+      "models",
+      "time",
+      "flags",
+      "jax.numpy",
+      "functools",
+      "absl",
+      "optax",
+      "flax",
+      "os",
+      "tensorflow",
+      "input_pipeline",
+      "jax",
+      "train_state",
+      "flax.metrics",
+      "linen",
+      "random",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nlp_seq/main.py",
+    "dependencies": [
+      "ml_collections",
+      "absl",
+      "app",
+      "flags",
+      "config_flags",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nlp_seq/input_pipeline_test.py",
+    "dependencies": [
+      "absl.testing",
+      "os",
+      "tensorflow",
+      "input_pipeline",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nlp_seq/input_pipeline.py",
+    "dependencies": [
+      "codecs",
+      "collections",
+      "tensorflow",
+      "enum"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nlp_seq/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/helpers.py",
+    "dependencies": [
+      "__future__",
+      "collections.abc",
+      "Any",
+      "VariableDict",
+      "flax",
+      "typing",
+      "flax.typing",
+      "M",
+      "Callable",
+      "nnx",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/sampler_test.py",
+    "dependencies": [
+      "sow_lib",
+      "kagglehub",
+      "absl.testing",
+      "collections.abc",
+      "numpy",
+      "parameterized",
+      "modules",
+      "flax",
+      "os",
+      "Iterable",
+      "sampler",
+      "jax.numpy",
+      "jax",
+      "transformer",
+      "sentencepiece",
+      "nnx",
+      "params",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/sampler.py",
+    "dependencies": [
+      "sow_lib",
+      "__future__",
+      "collections.abc",
+      "Sequence",
+      "modules",
+      "flax",
+      "annotations",
+      "statelib",
+      "jax.numpy",
+      "flax.nnx",
+      "jax",
+      "transformer",
+      "nnx",
+      "dataclasses",
+      "sentencepiece",
+      "graph"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/layers_test.py",
+    "dependencies": [
+      "absl.testing",
+      "parameterized",
+      "flax",
+      "jax.numpy",
+      "numpy",
+      "nnx",
+      "absltest",
+      "layers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/params.py",
+    "dependencies": [
+      "functools",
+      "orbax.checkpoint",
+      "collections.abc",
+      "Any",
+      "Mapping",
+      "jax.numpy",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/transformer.py",
+    "dependencies": [
+      "Any",
+      "enum",
+      "jaxtyping",
+      "params",
+      "__future__",
+      "jax.numpy",
+      "Cache",
+      "functools",
+      "helpers",
+      "flax",
+      "Iterable",
+      "typing",
+      "nnx",
+      "dataclasses",
+      "layers",
+      "sow_lib",
+      "collections.abc",
+      "modules",
+      "Array",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/positional_embeddings_test.py",
+    "dependencies": [
+      "positional_embeddings",
+      "absl.testing",
+      "numpy",
+      "parameterized",
+      "jax.numpy",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/modules_test.py",
+    "dependencies": [
+      "absl.testing",
+      "numpy",
+      "parameterized",
+      "modules",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "transformer",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/README.md",
+    "dependencies": [
+      "tensorflow_datasets",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/train.py",
+    "dependencies": [
+      "Any",
+      "logging",
+      "transformer",
+      "flax.training",
+      "common_utils",
+      "checkpoints",
+      "jax.numpy",
+      "metric_writers",
+      "periodic_actions",
+      "absl",
+      "optax",
+      "utils",
+      "flax",
+      "os",
+      "sampler",
+      "tensorflow",
+      "input_pipeline",
+      "jax",
+      "typing",
+      "tokenizer",
+      "nnx",
+      "dataclasses",
+      "clu",
+      "random",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/utils.py",
+    "dependencies": [
+      "flax.training",
+      "jax.experimental",
+      "collections.abc",
+      "numpy",
+      "Any",
+      "mesh_utils",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "typing",
+      "logging",
+      "transformer",
+      "Callable",
+      "nnx",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/main.py",
+    "dependencies": [
+      "ml_collections",
+      "platform",
+      "absl",
+      "app",
+      "clu",
+      "flags",
+      "jax",
+      "tensorflow",
+      "config_flags",
+      "logging",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/transformer_test.py",
+    "dependencies": [
+      "sow_lib",
+      "absl.testing",
+      "parameterized",
+      "modules",
+      "flax",
+      "collections",
+      "jax.numpy",
+      "defaultdict",
+      "numpy",
+      "transformer",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/layers.py",
+    "dependencies": [
+      "__future__",
+      "collections.abc",
+      "Sequence",
+      "Any",
+      "flax",
+      "jax.numpy",
+      "jaxtyping",
+      "jax",
+      "Array",
+      "Shape",
+      "typing",
+      "nnx",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/input_pipeline_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "default",
+      "absl.testing",
+      "configs",
+      "pathlib",
+      "tempfile",
+      "sys",
+      "os",
+      "input_pipeline",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/input_pipeline.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "Any",
+      "os",
+      "tensorflow",
+      "typing",
+      "tokenizer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/tokenizer.py",
+    "dependencies": [
+      "collections.abc",
+      "absl",
+      "tempfile",
+      "time",
+      "sys",
+      "Any",
+      "SentencePieceTrainer",
+      "os",
+      "Iterable",
+      "jax",
+      "tensorflow",
+      "logging",
+      "SentencePieceProcessor",
+      "typing",
+      "tensorflow_text",
+      "dataclasses",
+      "sentencepiece"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/sow_lib.py",
+    "dependencies": [
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/modules.py",
+    "dependencies": [
+      "positional_embeddings",
+      "sow_lib",
+      "__future__",
+      "collections.abc",
+      "Sequence",
+      "Any",
+      "flax",
+      "enum",
+      "LayerCache",
+      "jax.numpy",
+      "jaxtyping",
+      "jax",
+      "Array",
+      "typing",
+      "nnx",
+      "annotations",
+      "layers"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/positional_embeddings.py",
+    "dependencies": [
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/helpers_test.py",
+    "dependencies": [
+      "absl.testing",
+      "__future__",
+      "numpy",
+      "helpers",
+      "parameterized",
+      "flax.linen",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "annotations",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/configs/gemma3_4b.py",
+    "dependencies": [
+      "train",
+      "dataclasses",
+      "MeshRules"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/configs/small.py",
+    "dependencies": [
+      "train",
+      "dataclasses",
+      "MeshRules"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/configs/tiny.py",
+    "dependencies": [
+      "train",
+      "dataclasses",
+      "MeshRules"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/gemma/configs/default.py",
+    "dependencies": [
+      "train",
+      "dataclasses",
+      "MeshRules"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/cloud/README.md",
+    "dependencies": [
+      "tensorflow_datasets"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/cloud/launch_gce.py",
+    "dependencies": [
+      "re",
+      "collections.abc",
+      "absl",
+      "app",
+      "Sequence",
+      "time",
+      "flags",
+      "datetime",
+      "os",
+      "subprocess"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/cloud/startup_script.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/01_functional_api.py",
+    "dependencies": [
+      "matplotlib.pyplot",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/06_scan_over_layers.py",
+    "dependencies": [
+      "nnx",
+      "jax.numpy",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/04_data_parallel_with_jit.py",
+    "dependencies": [
+      "jax.experimental",
+      "matplotlib.pyplot",
+      "optax",
+      "mesh_utils",
+      "flax",
+      "os",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/09_parameter_surgery.py",
+    "dependencies": [
+      "nnx",
+      "flax",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/02_lifted_transforms.py",
+    "dependencies": [
+      "matplotlib.pyplot",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/hijax_basic.py",
+    "dependencies": [
+      "matplotlib.pyplot",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/hijax_demo.py",
+    "dependencies": [
+      "matplotlib.pyplot",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/07_array_leaves.py",
+    "dependencies": [
+      "matplotlib.pyplot",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/10_fsdp_and_optimizer.py",
+    "dependencies": [
+      "jax.experimental",
+      "numpy",
+      "jax.sharding",
+      "matplotlib",
+      "mesh_utils",
+      "flax",
+      "os",
+      "Mesh",
+      "jax.numpy",
+      "typing",
+      "jax",
+      "pyplot",
+      "nnx",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/08_save_load_checkpoints.py",
+    "dependencies": [
+      "orbax.checkpoint",
+      "tempfile",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "TemporaryDirectory"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/03_train_state.py",
+    "dependencies": [
+      "flax.training",
+      "matplotlib.pyplot",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/nnx_toy_examples/05_vae.py",
+    "dependencies": [
+      "matplotlib.pyplot",
+      "load_dataset",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "typing",
+      "nnx",
+      "datasets"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/mnist/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/mnist/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/mnist/mnist.ipynb",
+    "dependencies": [
+      "tensorflow_datasets",
+      "default",
+      "IPython",
+      "absl",
+      "numpy",
+      "configs",
+      "drive",
+      "files",
+      "matplotlib",
+      "flax",
+      "os",
+      "jax.numpy",
+      "train",
+      "google.colab",
+      "logging",
+      "display",
+      "pyplot"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/mnist/train.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "tensorboard",
+      "Any",
+      "logging",
+      "partial",
+      "pathlib",
+      "functools",
+      "absl",
+      "optax",
+      "flax",
+      "tensorflow",
+      "typing",
+      "nnx",
+      "ml_collections",
+      "flax.metrics",
+      "JaxModule",
+      "Path",
+      "orbax.export",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/mnist/train_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "default",
+      "absl.testing",
+      "numpy",
+      "configs",
+      "pathlib",
+      "tempfile",
+      "sys",
+      "flax.nnx",
+      "tensorflow",
+      "jax",
+      "train",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/mnist/main.py",
+    "dependencies": [
+      "logging",
+      "ml_collections",
+      "platform",
+      "absl",
+      "app",
+      "clu",
+      "flags",
+      "tensorflow",
+      "config_flags",
+      "jax",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/mnist/mnist_benchmark.py",
+    "dependencies": [
+      "flagsaver",
+      "default",
+      "absl.testing",
+      "absl.testing.flagsaver",
+      "absl",
+      "numpy",
+      "Benchmark",
+      "main",
+      "configs",
+      "time",
+      "flags",
+      "flax.testing",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/mnist/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/sst2.ipynb",
+    "dependencies": [
+      "tensorflow_datasets",
+      "vocabulary",
+      "files",
+      "logging",
+      "models",
+      "configs",
+      "drive",
+      "time",
+      "jax.numpy",
+      "google.colab",
+      "display",
+      "IPython",
+      "absl",
+      "flax",
+      "os",
+      "tensorflow",
+      "input_pipeline",
+      "train",
+      "default",
+      "numpy",
+      "jax.tools.colab_tpu"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/vocab.txt",
+    "dependencies": [
+      "improve"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/models_test.py",
+    "dependencies": [
+      "absl.testing",
+      "numpy",
+      "models",
+      "parameterized",
+      "jax.test_util",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/models.py",
+    "dependencies": [
+      "functools",
+      "collections.abc",
+      "numpy",
+      "Any",
+      "flax",
+      "linen",
+      "typing",
+      "jax",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/vocabulary.py",
+    "dependencies": [
+      "logging",
+      "collections.abc",
+      "absl",
+      "Optional",
+      "collections",
+      "Iterable",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/train.py",
+    "dependencies": [
+      "tensorboard",
+      "Any",
+      "logging",
+      "flax.training",
+      "models",
+      "jax.numpy",
+      "Callable",
+      "struct",
+      "absl",
+      "optax",
+      "flax",
+      "tensorflow",
+      "input_pipeline",
+      "jax",
+      "typing",
+      "train_state",
+      "ml_collections",
+      "flax.metrics",
+      "collections.abc",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/train_test.py",
+    "dependencies": [
+      "default",
+      "absl.testing",
+      "numpy",
+      "jax.test_util",
+      "parameterized",
+      "configs",
+      "sys",
+      "jax",
+      "train",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/main.py",
+    "dependencies": [
+      "logging",
+      "ml_collections",
+      "platform",
+      "absl",
+      "app",
+      "clu",
+      "flags",
+      "tensorflow",
+      "config_flags",
+      "jax",
+      "train"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/input_pipeline_test.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "absl.testing",
+      "pathlib",
+      "tempfile",
+      "vocabulary",
+      "sys",
+      "os",
+      "input_pipeline",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/input_pipeline.py",
+    "dependencies": [
+      "logging",
+      "tensorflow_datasets",
+      "absl",
+      "Any",
+      "vocabulary",
+      "sys",
+      "typing",
+      "tensorflow",
+      "numpy",
+      "tensorflow_text"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/build_vocabulary.py",
+    "dependencies": [
+      "tensorflow_datasets",
+      "collections.abc",
+      "absl",
+      "time",
+      "vocabulary",
+      "Iterable",
+      "tensorflow",
+      "logging",
+      "tensorflow_text"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/sst2/configs/default.py",
+    "dependencies": [
+      "ml_collections"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/uv.lock",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/Cargo.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/CMakeLists.txt",
+    "dependencies": [
+      "all"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/Cargo.lock",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/.gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/src/lib.cc",
+    "dependencies": [
+      "nanobind/stl/unordered_map.h",
+      "nanobind/nanobind.h",
+      "string",
+      "nanobind/stl/vector.h",
+      "unordered_map",
+      "vector",
+      "nanobind/stl/string.h",
+      "Python.h",
+      "map",
+      "nanobind/stl/optional.h",
+      "nanobind/stl/bind_map.h",
+      "nanobind/stl/map.h"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/src/flaxlib/__init__.py",
+    "dependencies": [
+      "VariableDef",
+      "NodeDef",
+      "IndexMap",
+      "NodeRef",
+      ".flaxlib_cpp",
+      "RefMap"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flaxlib_src/src/flaxlib/flaxlib_cpp.pyi",
+    "dependencies": [
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/nnx_mlpmixer_training.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "einop",
+      "absl",
+      "numpy",
+      "app",
+      "optax",
+      "time",
+      "tqdm",
+      "flags",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/nnx_graph_overhead.py",
+    "dependencies": [
+      "absl",
+      "app",
+      "optax",
+      "time",
+      "flags",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/nnx_state_traversal.py",
+    "dependencies": [
+      "absl",
+      "app",
+      "time",
+      "flags",
+      "flax",
+      "jax",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/nnx_simple_training.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl",
+      "app",
+      "optax",
+      "time",
+      "flags",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/nlp_seq.py",
+    "dependencies": [
+      "Any",
+      "tracing_benchmark",
+      "flax.training",
+      "common_utils",
+      "models",
+      "flax.examples.nlp_seq.configs",
+      "jax.numpy",
+      "flax.benchmarks.tracing",
+      "functools",
+      "optax",
+      "flax",
+      "typing",
+      "jax",
+      "flax.examples.nlp_seq",
+      "train_state",
+      "google_benchmark",
+      "default",
+      "ml_collections",
+      "linen",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/run_all_benchmarks.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/vae.py",
+    "dependencies": [
+      "flax.training",
+      "default",
+      "ml_collections",
+      "flax.examples.vae.configs",
+      "models",
+      "optax",
+      "Any",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "typing",
+      "flax.benchmarks.tracing",
+      "flax.examples.vae",
+      "jax",
+      "tracing_benchmark",
+      "train_state",
+      "google_benchmark"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/wmt.py",
+    "dependencies": [
+      "Any",
+      "flax.examples.wmt",
+      "tracing_benchmark",
+      "flax.examples.wmt.configs",
+      "flax.training",
+      "dynamic_scale",
+      "common_utils",
+      "models",
+      "jax.numpy",
+      "flax.benchmarks.tracing",
+      "functools",
+      "optax",
+      "flax",
+      "typing",
+      "jax",
+      "train_state",
+      "google_benchmark",
+      "default",
+      "ml_collections",
+      "linen",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/tracing_benchmark.py",
+    "dependencies": [
+      "collections.abc",
+      "absl",
+      "app",
+      "Any",
+      "sys",
+      "flags",
+      "typing",
+      "jax",
+      "logging",
+      "Callable",
+      "google_benchmark"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/seq2seq.py",
+    "dependencies": [
+      "Any",
+      "flax.examples.seq2seq",
+      "tracing_benchmark",
+      "flax.examples.seq2seq.input_pipeline",
+      "flax.training",
+      "mask_sequences",
+      "models",
+      "jax.numpy",
+      "flax.benchmarks.tracing",
+      "get_sequence_lengths",
+      "optax",
+      "flax",
+      "typing",
+      "flax.examples.seq2seq.configs",
+      "train_state",
+      "google_benchmark",
+      "default",
+      "ml_collections",
+      "CharacterTable",
+      "linen",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/sst2.py",
+    "dependencies": [
+      "flax.training",
+      "default",
+      "ml_collections",
+      "models",
+      "optax",
+      "Any",
+      "flax.examples.sst2.configs",
+      "jax.numpy",
+      "typing",
+      "flax.benchmarks.tracing",
+      "jax",
+      "tracing_benchmark",
+      "flax.examples.sst2",
+      "train_state",
+      "google_benchmark"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/gemma.py",
+    "dependencies": [
+      "Any",
+      "transformer",
+      "tracing_benchmark",
+      "flax.training",
+      "common_utils",
+      "jax.numpy",
+      "flax.examples.gemma.configs",
+      "flax.benchmarks.tracing",
+      "flax.examples.gemma",
+      "optax",
+      "utils",
+      "flax",
+      "typing",
+      "jax",
+      "nnx",
+      "google_benchmark",
+      "default",
+      "ml_collections",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/mnist.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "default",
+      "ml_collections",
+      "optax",
+      "Any",
+      "flax",
+      "jax.numpy",
+      "typing",
+      "flax.benchmarks.tracing",
+      "jax",
+      "tracing_benchmark",
+      "nnx",
+      "google_benchmark",
+      "flax.examples.mnist.configs"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/lm1b.py",
+    "dependencies": [
+      "Any",
+      "tracing_benchmark",
+      "flax.training",
+      "common_utils",
+      "models",
+      "jax.numpy",
+      "flax.benchmarks.tracing",
+      "functools",
+      "flax.examples.lm1b.configs",
+      "optax",
+      "flax",
+      "typing",
+      "jax",
+      "flax.examples.lm1b",
+      "train_state",
+      "google_benchmark",
+      "default",
+      "ml_collections",
+      "linen",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/ppo.py",
+    "dependencies": [
+      "default",
+      "ml_collections",
+      "models",
+      "Any",
+      "ppo_lib",
+      "flax.examples.ppo.configs",
+      "jax.numpy",
+      "typing",
+      "flax.benchmarks.tracing",
+      "jax",
+      "tracing_benchmark",
+      "google_benchmark",
+      "flax.examples.ppo"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/imagenet.py",
+    "dependencies": [
+      "Any",
+      "tracing_benchmark",
+      "flax.training",
+      "flax.examples.imagenet",
+      "dynamic_scale",
+      "common_utils",
+      "models",
+      "flax.examples.imagenet.configs",
+      "jax.numpy",
+      "flax.benchmarks.tracing",
+      "functools",
+      "optax",
+      "flax",
+      "typing",
+      "train_state",
+      "google_benchmark",
+      "default",
+      "ml_collections",
+      "linen",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "benchmarks/tracing/ogbg_molpcba.py",
+    "dependencies": [
+      "Any",
+      "tracing_benchmark",
+      "flax.training",
+      "models",
+      "flax.examples.ogbg_molpcba.configs",
+      "jax.numpy",
+      "flax.examples.ogbg_molpcba",
+      "flax.benchmarks.tracing",
+      "optax",
+      "flax.linen",
+      "flax",
+      "typing",
+      "metrics",
+      "train_state",
+      "google_benchmark",
+      "default",
+      "ml_collections",
+      "clu",
+      "jax",
+      "jraph"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/__init__.py",
+    "dependencies": [
+      "core",
+      "configurations",
+      "jax_utils",
+      "flax",
+      "linen",
+      "serialization",
+      "version",
+      "traverse_util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/version.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/traceback_util.py",
+    "dependencies": [
+      "jax._src",
+      "jax.extend",
+      "config",
+      "traceback_util",
+      "source_info_util",
+      "flax",
+      "JAX"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/configurations.py",
+    "dependencies": [
+      "contextlib",
+      "Any",
+      "contextmanager",
+      "os",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/ids.py",
+    "dependencies": [
+      "threading"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/cursor.py",
+    "dependencies": [
+      "flax.training",
+      "CursorFindError",
+      "collections.abc",
+      "FrozenDict",
+      "optax",
+      "flax.linen",
+      "enum",
+      "typing",
+      "flax.cursor",
+      "cursor",
+      "flax.core",
+      "jax",
+      "flax.errors",
+      "Callable",
+      "dataclasses",
+      "train_state"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/jax_utils.py",
+    "dependencies": [
+      "core",
+      "jax.extend",
+      "linear_util",
+      "partial_eval",
+      "collections.abc",
+      "numpy",
+      "itertools",
+      "jax.interpreters",
+      "collections",
+      "jax.numpy",
+      "Iterable",
+      "jax",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/io.py",
+    "dependencies": [
+      "importlib",
+      "logging",
+      ".",
+      "of",
+      "contextlib",
+      "Enum",
+      "gfile",
+      "errors",
+      "absl",
+      "enum",
+      "os",
+      "tensorflow.io",
+      "tensorflow",
+      "shutil",
+      "glob"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/py.typed",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/typing.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "__future__",
+      "numpy",
+      "FrozenDict",
+      "collections.abc",
+      "dataclasses",
+      "jax.tree_util",
+      "collections",
+      "deque",
+      "jax.numpy",
+      "abc",
+      "typing",
+      "jax",
+      "Iterator",
+      "flax.core",
+      "Callable",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/serialization.py",
+    "dependencies": [
+      "threading",
+      "numpy",
+      "contextlib",
+      "Any",
+      "contextmanager",
+      "enum",
+      "jax",
+      "typing",
+      "msgpack"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/traverse_util.py",
+    "dependencies": [
+      "copy",
+      "Any",
+      "VariableDict",
+      "jax.numpy",
+      "flax.typing",
+      "abc",
+      "Callable",
+      "flax.core.scope",
+      "traverse_util",
+      "struct",
+      "PathParts",
+      "flax",
+      "flatten_dict",
+      ".",
+      "typing",
+      "dataclasses",
+      "collections.abc",
+      "jax",
+      "flax.traverse_util",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/struct.py",
+    "dependencies": [
+      "functools",
+      ".",
+      "struct",
+      "collections.abc",
+      "Any",
+      "typing_extensions",
+      "TypeVar",
+      "flax",
+      "typing",
+      "jax",
+      "serialization",
+      "Callable",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/errors.py",
+    "dependencies": [
+      "flax",
+      "linen",
+      "jax.numpy",
+      "random",
+      "jax",
+      "serialization",
+      "jax.experimental.gda_serialization"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/testing/benchmark.py",
+    "dependencies": [
+      "functools",
+      "io",
+      "absl.testing",
+      "tensorboard.backend.event_processing",
+      "v1",
+      "absl",
+      "itertools",
+      "tempfile",
+      "flags",
+      "flax",
+      "tensor_util",
+      "json",
+      "os",
+      "tensorboard.summary",
+      "tensorboard.util",
+      "inspect",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/testing/__init__.py",
+    "dependencies": [
+      "Benchmark",
+      ".benchmark"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/helpers.py",
+    "dependencies": [
+      "ApplyCaller",
+      "Module",
+      "graphlib",
+      "__future__",
+      "flax.nnx.statelib",
+      "jax.numpy",
+      "flax.nnx",
+      "Rngs",
+      "flax.nnx.proxy_caller",
+      "GraphDef",
+      "struct",
+      "optax",
+      "flax.nnx.graphlib",
+      "flax",
+      "typing",
+      "inspect",
+      "nnx",
+      "flax.nnx.module",
+      "flax.nnx.variablelib",
+      "State",
+      "flax.nnx.rnglib",
+      "flax.training.train_state",
+      "Variable",
+      "jax",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/rnglib.py",
+    "dependencies": [
+      "initializers",
+      "filterlib",
+      "flax.nnx.pytreelib",
+      "graphlib",
+      "Pytree",
+      "__future__",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "functools",
+      "struct",
+      "flax",
+      "typing",
+      "nnx",
+      "MISSING",
+      "flax.nnx.variablelib",
+      "flax.nnx.nn",
+      "random",
+      "Variable",
+      "jax",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/summary.py",
+    "dependencies": [
+      "io",
+      "rich.table",
+      "get_ipython",
+      "MappingProxyType",
+      "defaultdict",
+      "yaml",
+      "graphlib",
+      "types",
+      "itertools",
+      "collections",
+      "jax.numpy",
+      "flax.nnx",
+      "wraps",
+      "functools",
+      "IPython",
+      "rich.console",
+      "flax",
+      "jax",
+      "typing",
+      "inspect",
+      "nnx",
+      "dataclasses",
+      "numpy",
+      "rich.text"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/__init__.py",
+    "dependencies": [
+      "UpdateContext",
+      "RNNCellBase",
+      "Initializer",
+      "Any",
+      "update_context",
+      "last",
+      "gelu",
+      "restore_int_paths",
+      "vars_as",
+      "to_tree",
+      "SplitContext",
+      ".pytreelib",
+      "cycles",
+      "RngCount",
+      ".module",
+      "MergeContext",
+      "Perturbation",
+      "wrappers",
+      "Static",
+      "optimizer",
+      "cond",
+      "fork_rngs",
+      "dot_product_attention",
+      "Everything",
+      "pytreelib",
+      "logsumexp",
+      ".helpers",
+      "soft_sign",
+      "pool",
+      "MultiHeadAttention",
+      "from_flat_state",
+      "Cache",
+      "merge_context",
+      "vjp",
+      "graph",
+      "LSTMCell",
+      ".transforms.transforms",
+      "logical_axis_rules",
+      "TrainState",
+      "get_named_sharding",
+      "ModelAndOptimizer",
+      "current_update_context",
+      "flax.linen.pooling",
+      "selu",
+      "min_pool",
+      ".nn.stochastic",
+      "metrics",
+      "OptArray",
+      "pmap",
+      "A",
+      ".training.metrics",
+      ".training.optimizer",
+      "hard_tanh",
+      "InstanceNorm",
+      "split_context",
+      "with_metadata",
+      "switch",
+      "Variable",
+      "pure",
+      "get_partition_spec",
+      "softplus",
+      "identity",
+      "warnings",
+      "Not",
+      "split_state",
+      "get_abstract_model",
+      ".nn.attention",
+      "sigmoid",
+      "PReLU",
+      "tabulate",
+      "grad",
+      "BatchNorm",
+      "hard_sigmoid",
+      "log_softmax",
+      "register_variable_name",
+      "to_flat_state",
+      "graphlib",
+      "OptVariable",
+      "List",
+      ".filterlib",
+      "LayerNorm",
+      "flax.typing",
+      "GraphState",
+      "has_data",
+      "iter_children",
+      "Rngs",
+      "StateAxes",
+      "display",
+      "GraphDef",
+      "celu",
+      "jvp",
+      "jit",
+      "StateSharding",
+      "RNN",
+      ".summary",
+      "relu6",
+      "update",
+      "recursive_map",
+      "make_causal_mask",
+      "tanh",
+      "call",
+      ".extract",
+      "typing",
+      "standardize",
+      ".transforms.autodiff",
+      "view",
+      "LoRAParam",
+      "from_tree",
+      "GroupNorm",
+      "state",
+      "OptState",
+      "Einsum",
+      "Dropout",
+      "leaky_relu",
+      "to_pure_dict",
+      "flatten",
+      "map_state",
+      ".nn.activations",
+      "GRUCell",
+      "PathContains",
+      "filter_state",
+      "hard_silu",
+      "data",
+      "split_rngs",
+      "relu",
+      "variable_name_from_type",
+      "one_hot",
+      "OfType",
+      "avg_pool",
+      "elu",
+      "custom_vjp",
+      "WithTag",
+      "reseed",
+      "Pytree",
+      "Linear",
+      "with_partitioning",
+      "NodeStates",
+      ".transforms.iteration",
+      ".spmd",
+      "static",
+      "softmax",
+      "variable_type_from_name",
+      "graphdef",
+      "Bidirectional",
+      "check_pytree",
+      "vmap",
+      "merge_state",
+      "WeightNorm",
+      "Metric",
+      "PureState",
+      ".nn",
+      ".nn.linear",
+      "set_metadata",
+      ".nn.normalization",
+      "RMSNorm",
+      "Intermediate",
+      "replace_by_pure_dict",
+      "max_pool",
+      "MultiMetric",
+      ".transforms.compilation",
+      "combine_masks",
+      "cached_partial",
+      "RngState",
+      "fori_loop",
+      "restore_rngs",
+      "Dict",
+      "State",
+      "silu",
+      "find_duplicates",
+      "eval_shape",
+      "Conv",
+      "BatchStat",
+      ".visualization",
+      "Carry",
+      ".graphlib",
+      "VariableMetadata",
+      "SimpleCell",
+      "M",
+      ".statelib",
+      ".variablelib",
+      "swish",
+      "iter_graph",
+      "Data",
+      ".nn.lora",
+      "ConvTranspose",
+      "initializers",
+      "hard_swish",
+      "checkify",
+      "shard_map",
+      "pop",
+      "Sequential",
+      "view_info",
+      "Module",
+      "register_data_type",
+      "RngStream",
+      "PARTITION_NAME",
+      "remat",
+      ".training",
+      "FlatState",
+      "flax.core.spmd",
+      ".nn.recurrent",
+      "unflatten",
+      "use_eager_sharding",
+      "while_loop",
+      ".bridge",
+      "glu",
+      "split",
+      "scan",
+      "Embed",
+      "log_sigmoid",
+      "RngKey",
+      "Object",
+      ".rnglib",
+      "variables",
+      "Nothing",
+      "dataclass",
+      "LoRA",
+      "SpectralNorm",
+      "make_attention_mask",
+      "OptimizedLSTMCell",
+      "DiffState",
+      "clone",
+      "LoRALinear",
+      "jit_partial",
+      ".",
+      "LinearGeneral",
+      "value_and_grad",
+      "Param",
+      "All",
+      "merge",
+      "traversals",
+      "from",
+      "with_attributes",
+      "Optimizer",
+      "is_data"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/traversals.py",
+    "dependencies": [
+      "struct",
+      "__future__",
+      "collections.abc",
+      "Any",
+      "flax",
+      "Iterable",
+      "typing",
+      "Callable",
+      "nnx",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/ids.py",
+    "dependencies": [
+      "threading"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/spmd.py",
+    "dependencies": [
+      "jax.sharding",
+      "flax.core.spmd",
+      "eval_shape",
+      "variablelib",
+      "PartitionSpec",
+      "flax.nnx.transforms.transforms",
+      "flax.nnx",
+      "flax.typing",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/visualization.py",
+    "dependencies": [
+      "IPython",
+      "rendering_parts",
+      "get_ipython",
+      "typing",
+      "treescope"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/tracers.py",
+    "dependencies": [
+      "reprlib",
+      "jax.core",
+      "flax.nnx",
+      "jax",
+      "treescope"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/README.md",
+    "dependencies": [
+      "optax",
+      "nnx",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/filterlib.py",
+    "dependencies": [
+      "Key",
+      "flax.typing",
+      "builtins",
+      "typing",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/proxy_caller.py",
+    "dependencies": [
+      "__future__",
+      "annotations",
+      "jax",
+      "typing",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/pytreelib.py",
+    "dependencies": [
+      "copy",
+      "rendering_parts",
+      "deepcopy",
+      "ABCMeta",
+      "config",
+      "__future__",
+      "jax.numpy",
+      "flax.nnx",
+      "abc",
+      "flax.typing",
+      "treescope",
+      "dataclass",
+      "flax",
+      "os",
+      "jax",
+      "typing",
+      "inspect",
+      "nnx",
+      "MISSING",
+      "dataclasses",
+      "threading",
+      "flax.nnx.variablelib",
+      "errors",
+      "variablelib",
+      "Variable",
+      "numpy",
+      "annotations",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/variablelib.py",
+    "dependencies": [
+      "Any",
+      "flax.core",
+      "jax._src.state.types",
+      "hijax",
+      "reprlib",
+      "partial",
+      "jax.experimental",
+      "config",
+      "__future__",
+      "itertools",
+      "jax.tree_util",
+      "flax.nnx",
+      "flax.typing",
+      "ArrayRef",
+      "MutableArray",
+      "treescope",
+      "functools",
+      "spmd",
+      "Ref",
+      "flax",
+      "typing",
+      "nnx",
+      "dataclasses",
+      "threading",
+      "BaseConfigContext",
+      "errors",
+      "jax",
+      "warnings",
+      "annotations",
+      "AbstractRef"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/graphlib.py",
+    "dependencies": [
+      "jax._src.tree_util",
+      "filterlib",
+      "flaxlib",
+      "FlatState",
+      "config",
+      "contextlib",
+      "__future__",
+      "flax.nnx.statelib",
+      "jax.core",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "pytreelib",
+      "flax.nnx.proxy_caller",
+      "treescope",
+      "functools",
+      "_registry",
+      "optax",
+      "flax",
+      "jax",
+      "typing",
+      "typing_extensions",
+      "nnx",
+      "statelib",
+      "dataclasses",
+      "threading",
+      "BaseConfigContext",
+      "flax.nnx.variablelib",
+      "Variable",
+      "numpy",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/module.py",
+    "dependencies": [
+      "Pytree",
+      "__future__",
+      "Key",
+      "flax.nnx.pytreelib",
+      "flax.nnx.graphlib",
+      "variablelib",
+      "flax",
+      "jax.numpy",
+      "GraphState",
+      "flax.nnx",
+      "flax.typing",
+      "jax",
+      "inspect",
+      "typing",
+      "nnx",
+      "annotations",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/graph.py",
+    "dependencies": [
+      "functools",
+      "spmd",
+      "flax.nnx.transforms",
+      "compilation",
+      "flax.nnx.graphlib",
+      "autodiff",
+      "module",
+      "iteration",
+      "flax.nnx",
+      "rnglib",
+      "transforms"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/extract.py",
+    "dependencies": [
+      "functools",
+      "graphlib",
+      "Pytree",
+      "struct",
+      "flax.nnx.pytreelib",
+      "Missing",
+      "flax",
+      "flax.typing",
+      "flax.nnx",
+      "abc",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/statelib.py",
+    "dependencies": [
+      "filterlib",
+      "partial",
+      "__future__",
+      "jax.tree_util",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "MutableMapping",
+      "treescope",
+      "functools",
+      "orbax.checkpoint",
+      "Key",
+      "flax",
+      "typing",
+      "nnx",
+      "collections.abc",
+      "tempfile",
+      "jax",
+      "annotations",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/reprlib.py",
+    "dependencies": [
+      "threading",
+      "IPython",
+      "config",
+      "get_ipython",
+      "sys",
+      "flax",
+      "os",
+      "typing",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/transforms/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/transforms/compilation.py",
+    "dependencies": [
+      "__future__",
+      "jax.sharding",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "operator",
+      "functools",
+      "optax",
+      "PartitionSpec",
+      "flax",
+      "typing",
+      "inspect",
+      "MISSING",
+      "nnx",
+      "dataclasses",
+      "flax.nnx.transforms.transforms",
+      "jax",
+      "AbstractMesh",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/transforms/transforms.py",
+    "dependencies": [
+      "checkify",
+      "Module",
+      "general",
+      "jax.stages",
+      "here",
+      "jax.experimental",
+      "get_var_pspec",
+      "__future__",
+      "jax.core",
+      "jax.numpy",
+      "flax.nnx",
+      "abstractmethod",
+      "abc",
+      "flax.nnx.proxy_caller",
+      "flax.typing",
+      "functools",
+      "jax._src",
+      "flax.nnx.spmd",
+      "flax.nnx.transforms",
+      "flax",
+      "typing",
+      "inspect",
+      "nnx",
+      "MISSING",
+      "dataclasses",
+      "flax.nnx.module",
+      "jax",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/transforms/autodiff.py",
+    "dependencies": [
+      "functools",
+      "struct",
+      "State",
+      "flax.nnx.transforms",
+      "flax.nnx.statelib",
+      "nnx",
+      "flax",
+      "collections",
+      "deque",
+      "jax",
+      "jax.numpy",
+      "flax.nnx",
+      "typing",
+      "flax.nnx.transforms.transforms",
+      "flax.typing",
+      "general",
+      "MISSING",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/transforms/iteration.py",
+    "dependencies": [
+      "Module",
+      "jax.stages",
+      "Leaf",
+      "flax.core.frozen_dict",
+      "extract",
+      "jax.core",
+      "flax.nnx.statelib",
+      "collections",
+      "deque",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "functools",
+      "struct",
+      "flax",
+      "jax",
+      "typing",
+      "nnx",
+      "statelib",
+      "dataclasses",
+      "flax.nnx.module",
+      "State",
+      "FrozenDict",
+      "random",
+      "flax.nnx.transforms.transforms",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/transforms/general.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "MISSING",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "flax.nnx",
+      "flax.typing",
+      "typing",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/bridge/interop.py",
+    "dependencies": [
+      "flax.nnx.transforms.compilation",
+      "jit",
+      "graphlib",
+      "flax.nnx.module",
+      "flax.nnx.bridge",
+      "eval_shape",
+      "wrappers",
+      "flax.linen",
+      "module",
+      "flax.nnx.transforms.transforms",
+      "flax.nnx",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/bridge/__init__.py",
+    "dependencies": [
+      "linen_in_bridge_mdl",
+      "initializers",
+      ".wrappers",
+      "ToLinen",
+      ".interop",
+      "Module",
+      ".module",
+      "with_partitioning",
+      "nnx_in_bridge_mdl",
+      "to_linen",
+      "current_context",
+      "AttrPriority",
+      "compact",
+      "functional",
+      "NNXMeta",
+      ".variables",
+      "ToNNX",
+      "lazy_init",
+      "current_module",
+      "flax.nnx.nn",
+      "Scope",
+      "Functional"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/bridge/variables.py",
+    "dependencies": [
+      "spmd",
+      "struct",
+      "traversals",
+      "Any",
+      "LogicalNames",
+      "variablelib",
+      "flax",
+      "flax.nnx",
+      "flax.typing",
+      "flax.core",
+      "jax",
+      "meta",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/bridge/wrappers.py",
+    "dependencies": [
+      "flax.nnx.pytreelib",
+      "Any",
+      "linears",
+      "flax.core",
+      "Module",
+      "partial",
+      "core",
+      "graphlib",
+      "Pytree",
+      "flax.nnx.statelib",
+      "flax.nnx",
+      "Rngs",
+      "meta",
+      "variables",
+      "functools",
+      "maxtext.src.maxtext.layers",
+      "flax",
+      "module",
+      "tree_util",
+      "typing",
+      "nnx",
+      "dataclasses",
+      "flax.nnx.bridge",
+      "flax.nnx.module",
+      "State",
+      "FrozenDict",
+      "flax.nnx.rnglib",
+      "variablelib",
+      "linen",
+      "jax",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/bridge/module.py",
+    "dependencies": [
+      "flax.nnx.pytreelib",
+      "enum",
+      "defaultdict",
+      "flax.core",
+      "register_data_type",
+      "flax.core.frozen_dict",
+      "graphlib",
+      "Pytree",
+      "__future__",
+      "collections",
+      "flax.nnx",
+      "meta",
+      "flax.core.scope",
+      "functools",
+      "variables",
+      "numpy",
+      "flax",
+      "typing",
+      "inspect",
+      "typing_extensions",
+      "dataclasses",
+      "threading",
+      "flax.nnx.module",
+      "flax.nnx.bridge",
+      "FrozenDict",
+      "errors",
+      "CollectionFilter",
+      "variablelib",
+      "jax",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/scripts/run-all-examples.bash",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/scripts/requirements.txt",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/training/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/training/optimizer.py",
+    "dependencies": [
+      "functools",
+      "Pytree",
+      "filterlib",
+      "__future__",
+      "flax.nnx.pytreelib",
+      "flax.nnx.variablelib",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "Variable",
+      "flax.nnx",
+      "jax",
+      "typing",
+      "nnx",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/training/metrics.py",
+    "dependencies": [
+      "Pytree",
+      "struct",
+      "filterlib",
+      "__future__",
+      "flax.nnx.pytreelib",
+      "flax.nnx.variablelib",
+      "flax",
+      "Variable",
+      "jax",
+      "jax.numpy",
+      "flax.nnx",
+      "numpy",
+      "typing",
+      "nnx",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/dtypes.py",
+    "dependencies": [
+      "flax.typing",
+      "jax",
+      "numpy",
+      "Dtype",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/stochastic.py",
+    "dependencies": [
+      "lax",
+      "flax.nnx.module",
+      "__future__",
+      "collections.abc",
+      "Sequence",
+      "flax",
+      "jax.numpy",
+      "flax.nnx",
+      "jax",
+      "Module",
+      "rnglib",
+      "nnx",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/recurrent.py",
+    "dependencies": [
+      "filterlib",
+      "initializers",
+      "Protocol",
+      "Any",
+      "sigmoid",
+      "MappingProxyType",
+      "Mapping",
+      "logging",
+      "Module",
+      "partial",
+      "Linear",
+      "types",
+      "flax.nnx.nn.activations",
+      "iteration",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "Dtype",
+      "Callable",
+      "flax.nnx.nn.linear",
+      "functools",
+      "absl",
+      "numpy",
+      "flax.nnx.transforms",
+      "flax",
+      "tanh",
+      "typing",
+      "typing_extensions",
+      "nnx",
+      "flax.nnx.module",
+      "flip_sequences",
+      "collections.abc",
+      "flax.nnx.nn",
+      "flax.nnx.nn.recurrent",
+      "jax",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/lora.py",
+    "dependencies": [
+      "initializers",
+      "MappingProxyType",
+      "Module",
+      "Linear",
+      "__future__",
+      "types",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "Dtype",
+      "rnglib",
+      "flax.nnx.nn.linear",
+      "flax",
+      "typing",
+      "nnx",
+      "flax.nnx.module",
+      "flax.nnx.nn",
+      "jax",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/initializers.py",
+    "dependencies": [
+      "glorot_uniform",
+      "Initializer",
+      "initializers",
+      "zeros",
+      "kaiming_normal",
+      "constant",
+      "variance_scaling",
+      "uniform",
+      "he_normal",
+      "delta_orthogonal",
+      "flax.typing",
+      "xavier_normal",
+      "flax.nnx",
+      "ones",
+      "normal",
+      "kaiming_uniform",
+      "orthogonal",
+      "lecun_normal",
+      "xavier_uniform",
+      "typing",
+      "glorot_normal",
+      "truncated_normal",
+      "jax.nn.initializers",
+      "lecun_uniform",
+      "jax",
+      "he_uniform"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/activations.py",
+    "dependencies": [
+      "dtypes",
+      "types",
+      "flax.nnx.nn",
+      "MappingProxyType",
+      "flax",
+      "tanh",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "typing",
+      "Array",
+      "nnx",
+      "jax.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/linear.py",
+    "dependencies": [
+      "MappingProxyType",
+      "Module",
+      "opt_einsum",
+      "flax.core.frozen_dict",
+      "dtypes",
+      "__future__",
+      "types",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "rnglib",
+      "lax",
+      "flax",
+      "jax",
+      "typing",
+      "nnx",
+      "flax.nnx.module",
+      "FrozenDict",
+      "flax.nnx.nn",
+      "numpy",
+      "annotations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/attention.py",
+    "dependencies": [
+      "initializers",
+      "Any",
+      "MappingProxyType",
+      "Mapping",
+      "Module",
+      "dtypes",
+      "__future__",
+      "types",
+      "LayerNorm",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "rnglib",
+      "Callable",
+      "flax.nnx.nn.linear",
+      "functools",
+      "lax",
+      "flax",
+      "typing",
+      "nnx",
+      "math",
+      "flax.nnx.module",
+      "collections.abc",
+      "flax.nnx.nn",
+      "jax",
+      "annotations",
+      "flax.nnx.nn.normalization"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/nnx/nn/normalization.py",
+    "dependencies": [
+      "lax",
+      "flax.nnx.module",
+      "dtypes",
+      "numpy",
+      "types",
+      "flax.nnx.nn",
+      "MappingProxyType",
+      "flax",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.typing",
+      "jax",
+      "Module",
+      "typing",
+      "nnx",
+      "rnglib"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/metrics/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/metrics/tensorboard.py",
+    "dependencies": [
+      "functools",
+      "io",
+      "contextlib",
+      "tensorboard.plugins.hparams",
+      "flax",
+      "os",
+      "tensorflow",
+      "numpy",
+      "api"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/lr_schedule.py",
+    "dependencies": [
+      "logging",
+      "jax.numpy",
+      "absl",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/prefetch_iterator.py",
+    "dependencies": [
+      "threading",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/common_utils.py",
+    "dependencies": [
+      "lax",
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/train_state.py",
+    "dependencies": [
+      "core",
+      "collections.abc",
+      "optax",
+      "Any",
+      "TrainState",
+      "flax.training.train_state",
+      "flax.linen",
+      "flax",
+      "typing",
+      "flax.linen.fp8_ops",
+      "jax",
+      "Callable",
+      "OVERWRITE_WITH_GRADIENT"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/checkpoints.py",
+    "dependencies": [
+      "thread",
+      "logging",
+      "sync_global_devices",
+      "flax.training",
+      "concurrent.futures",
+      "jax.experimental.array_serialization.serialization",
+      "config",
+      "pathlib",
+      "time",
+      "checkpoints",
+      "jax.numpy",
+      "Callable",
+      "functools",
+      "orbax.checkpoint",
+      "re",
+      "absl",
+      "orbax_utils",
+      "flax",
+      "os",
+      "tree_util",
+      "typing",
+      "jax.experimental.multihost_utils",
+      "collections.abc",
+      "tempfile",
+      "monitoring",
+      "jax",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/early_stopping.py",
+    "dependencies": [
+      "struct",
+      "flax.training.early_stopping",
+      "flax",
+      "math",
+      "EarlyStopping"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/dynamic_scale.py",
+    "dependencies": [
+      "functools",
+      "lax",
+      "struct",
+      "collections.abc",
+      "flax.training.dynamic_scale",
+      "Any",
+      "flax",
+      "jax.numpy",
+      "typing",
+      "DynamicScale",
+      "flax.typing",
+      "jax",
+      "Array",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/training/orbax_utils.py",
+    "dependencies": [
+      "orbax.checkpoint",
+      "jax.sharding",
+      "Any",
+      "Mesh",
+      "jax",
+      "numpy",
+      "typing",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/__init__.py",
+    "dependencies": [
+      ".tracers",
+      ".meta",
+      ".frozen_dict",
+      "flax.typing",
+      ".lift",
+      ".scope",
+      ".axes_scan",
+      "broadcast"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/variables.py",
+    "dependencies": [
+      ".scope",
+      "Variable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/partial_eval.py",
+    "dependencies": [
+      "functools",
+      "core",
+      "jax.extend",
+      "linear_util",
+      "partial_eval",
+      "errors",
+      "Any",
+      "jax.interpreters",
+      "flax",
+      "jax",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/axes_scan.py",
+    "dependencies": [
+      "functools",
+      "core",
+      "jax.extend",
+      "lax",
+      "linear_util",
+      "partial_eval",
+      "collections.abc",
+      "numpy",
+      "jax.interpreters",
+      "Any",
+      "jax.numpy",
+      "typing",
+      "jax",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/lift.py",
+    "dependencies": [
+      "Any",
+      ".scope",
+      "freeze",
+      "contextlib",
+      "collections",
+      "flax.typing",
+      "Callable",
+      "traverse_util",
+      "functools",
+      "traceback_util",
+      ".frozen_dict",
+      "flax",
+      "typing",
+      ".",
+      "dataclasses",
+      "threading",
+      "axes_scan",
+      "collections.abc",
+      "Filter",
+      "random",
+      "jax",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/spmd.py",
+    "dependencies": [
+      "threading",
+      "contextlib",
+      "jax.sharding",
+      "PartitionSpec",
+      "flax.typing",
+      "flax.core",
+      "jax",
+      "meta",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/frozen_dict.py",
+    "dependencies": [
+      "types",
+      "collections.abc",
+      "FrozenDict",
+      "Any",
+      "Hashable",
+      "MappingProxyType",
+      "flax",
+      "collections",
+      "flax.core",
+      "jax",
+      "serialization",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/scope.py",
+    "dependencies": [
+      "config",
+      "contextlib",
+      "uuid",
+      "collections",
+      "hashlib",
+      "flax.typing",
+      "meta",
+      "Callable",
+      "functools",
+      ".frozen_dict",
+      "flax",
+      "jax",
+      "typing",
+      ".",
+      "dataclasses",
+      "collections.abc",
+      "flax.ids",
+      "FrozenDict",
+      "errors",
+      "random",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/tracers.py",
+    "dependencies": [
+      "jax.core",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/flax_functional_engine.ipynb",
+    "dependencies": [
+      "functools",
+      "flax",
+      "Scope",
+      "linen",
+      "jax",
+      "flax.core",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/meta.py",
+    "dependencies": [
+      "functools",
+      "collections.abc",
+      "errors",
+      "Any",
+      "LogicalNames",
+      "flax.linen",
+      "flax",
+      "typing",
+      "flax.typing",
+      "abc",
+      "jax",
+      "Callable",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/nn/__init__.py",
+    "dependencies": [
+      ".normalization",
+      "initializers",
+      "flax.linen.pooling",
+      "flax.linen",
+      "activation",
+      "dropout",
+      ".stochastic",
+      "flax.linen.activation",
+      ".linear",
+      ".attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/nn/stochastic.py",
+    "dependencies": [
+      "lax",
+      "jax.numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/nn/linear.py",
+    "dependencies": [
+      "lax",
+      "struct",
+      "initializers",
+      "collections.abc",
+      "flax",
+      "Scope",
+      "flax.linen",
+      "jax.numpy",
+      "Iterable",
+      "jax",
+      "flax.core",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/nn/attention.py",
+    "dependencies": [
+      "functools",
+      "lax",
+      "struct",
+      "initializers",
+      "numpy",
+      "collections.abc",
+      "Any",
+      "flax",
+      "Scope",
+      "flax.linen",
+      "jax.numpy",
+      "Iterable",
+      "typing",
+      "flax.core",
+      "jax",
+      "Callable",
+      ".linear",
+      "default_kernel_init"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/core/nn/normalization.py",
+    "dependencies": [
+      "lax",
+      "initializers",
+      "flax.linen",
+      "Scope",
+      "jax.numpy",
+      "flax.core",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/experimental/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/experimental/nnx.py",
+    "dependencies": [
+      "flax.nnx",
+      "absl",
+      "logging"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/dtypes.py",
+    "dependencies": [
+      "numpy",
+      "Any",
+      "flax.typing",
+      "jax",
+      "typing",
+      "Dtype"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/summary.py",
+    "dependencies": [
+      "io",
+      "rich.table",
+      "MappingProxyType",
+      "enum",
+      "flax.core",
+      "yaml",
+      "types",
+      "jax.numpy",
+      "flax.typing",
+      "abc",
+      "meta",
+      "Callable",
+      "flax.core.scope",
+      "flax.linen.module",
+      "rich.console",
+      "flax.linen",
+      "ABC",
+      "typing",
+      "jax",
+      "dataclasses",
+      "collections.abc",
+      "numpy",
+      "rich.text"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/kw_only_dataclasses.py",
+    "dependencies": [
+      "functools",
+      "types",
+      "kw_only_dataclasses",
+      "Any",
+      "sys",
+      "MappingProxyType",
+      "flax",
+      "flax.linen",
+      "typing",
+      "inspect",
+      "typing_extensions",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/activation.py",
+    "dependencies": [
+      "hard_swish",
+      "hard_silu",
+      "Any",
+      "sigmoid",
+      "relu",
+      "one_hot",
+      "gelu",
+      "Module",
+      "elu",
+      "hard_sigmoid",
+      "log_softmax",
+      "Dense",
+      "softmax",
+      "glu",
+      "jax.numpy",
+      "flax.typing",
+      "logsumexp",
+      "log_sigmoid",
+      "celu",
+      "soft_sign",
+      "jax.nn",
+      "compact",
+      "flax.linen.module",
+      "relu6",
+      "flax.linen",
+      "selu",
+      "tanh",
+      "typing",
+      "standardize",
+      "class",
+      "hard_tanh",
+      "silu",
+      "leaky_relu",
+      "flax.linen.linear",
+      "Array",
+      "swish",
+      "softplus"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/__init__.py",
+    "dependencies": [
+      "tabulate",
+      "Sequential",
+      ".transforms",
+      "flax.core",
+      ".linear",
+      ".module",
+      ".fp8_ops",
+      ".normalization",
+      "flax.core.spmd",
+      ".spmd",
+      ".batch_apply",
+      ".activation",
+      ".combinators",
+      ".pooling",
+      ".summary",
+      ".initializers",
+      ".stochastic",
+      "flax.core.meta",
+      ".recurrent",
+      "BatchApply",
+      "Dropout",
+      ".attention"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/stochastic.py",
+    "dependencies": [
+      "lax",
+      "collections.abc",
+      "flax.linen.module",
+      "Sequence",
+      "flax.linen",
+      "jax.numpy",
+      "flax.typing",
+      "jax",
+      "PRNGKey",
+      "Module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/combinators.py",
+    "dependencies": [
+      "collections.abc",
+      "flax.linen.module",
+      "Sequence",
+      "Any",
+      "flax.linen",
+      "typing",
+      "Module",
+      "Callable"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/recurrent.py",
+    "dependencies": [
+      "initializers",
+      "flax.linen.dtypes",
+      "Protocol",
+      "sigmoid",
+      "logging",
+      "Module",
+      "promote_dtype",
+      "partial",
+      "flax.core.frozen_dict",
+      "jax.numpy",
+      "flax.typing",
+      "Callable",
+      "flax.core.scope",
+      "functools",
+      "absl",
+      "flax.linen.module",
+      "flax.linen",
+      "jax",
+      "typing",
+      "typing_extensions",
+      "collections.abc",
+      "FrozenDict",
+      "CollectionFilter",
+      "Conv",
+      "flax.linen.linear",
+      "random",
+      "numpy",
+      "flax.linen.activation"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/batch_apply.py",
+    "dependencies": [
+      "numpy",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/transforms.py",
+    "dependencies": [
+      "weakref",
+      "flax.core",
+      "serialization",
+      "core",
+      "flax.core.frozen_dict",
+      "contextlib",
+      "jax.numpy",
+      "flax.typing",
+      "FlaxId",
+      "Callable",
+      "flax.core.scope",
+      "functools",
+      "flax.linen.module",
+      "flax.linen",
+      "module",
+      "flax",
+      "typing",
+      "inspect",
+      "dataclasses",
+      "collections.abc",
+      "flax.ids",
+      "FrozenDict",
+      "errors",
+      "Scope",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/partitioning.py",
+    "dependencies": [
+      "_with_sharding_constraint",
+      "logical_to_mesh_axes",
+      "RulesFallback",
+      "get_logical_axis_rules",
+      "LogicalPartitionSpecPytree",
+      "flax.core.frozen_dict",
+      "freeze",
+      "flax.core.spmd",
+      "flax.typing",
+      "ArrayPytree",
+      "Callable",
+      "Out",
+      "flax.core.scope",
+      "functools",
+      "LogicalPartitionSpec",
+      "re",
+      "struct",
+      "logical_axis_rules",
+      "unfreeze",
+      "logical_to_mesh",
+      "flax",
+      "flatten_dict",
+      "typing",
+      "_is_logical_spec",
+      "collections.abc",
+      "with_logical_constraint",
+      "set_logical_axis_rules",
+      "flax.linen.spmd",
+      "linen",
+      "from",
+      "InOutAxis",
+      "unflatten_dict",
+      "jax",
+      "flax.traverse_util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/initializers.py",
+    "dependencies": [
+      "glorot_uniform",
+      "Initializer",
+      "zeros",
+      "kaiming_normal",
+      "constant",
+      "variance_scaling",
+      "ones_init",
+      "uniform",
+      "flax.linen.initializers",
+      "he_normal",
+      "delta_orthogonal",
+      "flax.typing",
+      "xavier_normal",
+      "ones",
+      "normal",
+      "kaiming_uniform",
+      "orthogonal",
+      "lecun_normal",
+      "xavier_uniform",
+      "glorot_normal",
+      "truncated_normal",
+      "def",
+      "jax.nn.initializers",
+      "lecun_uniform",
+      "zeros_init",
+      "jax",
+      "he_uniform"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/spmd.py",
+    "dependencies": [
+      "functools",
+      "lax",
+      "struct",
+      "collections.abc",
+      "flax.core.spmd",
+      "Any",
+      "flax.linen",
+      "flax",
+      "enum",
+      "collections",
+      "typing",
+      "flax.typing",
+      "flax.core",
+      "jax",
+      "meta",
+      "Callable",
+      "LogicalPartitionSpecPytree",
+      "dataclasses"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/linear.py",
+    "dependencies": [
+      "initializers",
+      "flax.linen.dtypes",
+      "Any",
+      "flax.core",
+      "Module",
+      "promote_dtype",
+      "opt_einsum",
+      "jax.core",
+      "jax.numpy",
+      "flax.typing",
+      "meta",
+      "flax.linen.module",
+      "ShapedArray",
+      "flax.linen",
+      "module",
+      "Iterable",
+      "jax",
+      "typing",
+      "collections.abc",
+      "eval_shape",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/attention.py",
+    "dependencies": [
+      "initializers",
+      "flax.linen.dtypes",
+      "Any",
+      "Module",
+      "promote_dtype",
+      "__future__",
+      "flax.linen.normalization",
+      "LayerNorm",
+      "jax.numpy",
+      "flax.typing",
+      "Callable",
+      "functools",
+      "lax",
+      "flax.linen.module",
+      "flax.linen",
+      "typing",
+      "jax",
+      "inspect",
+      "collections.abc",
+      "flax.linen.linear",
+      "annotations",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/fp8_ops.py",
+    "dependencies": [
+      "initializers",
+      "Any",
+      "custom_jvp",
+      "jax._src.interpreters",
+      "partial",
+      "core",
+      "dtypes",
+      "itertools",
+      "functools",
+      "earray",
+      "jax._src",
+      "numpy",
+      "flax.linen",
+      "jax.typing",
+      "typing",
+      "jax",
+      "DTypeLike",
+      "dataclasses",
+      "pxla",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/pooling.py",
+    "dependencies": [
+      "lax",
+      "jax.numpy",
+      "jax",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/module.py",
+    "dependencies": [
+      "Tuple",
+      "weakref",
+      "MappingProxyType",
+      "enum",
+      "flax.core",
+      "flax.core.frozen_dict",
+      "types",
+      "contextlib",
+      "summary",
+      "sys",
+      "jax.numpy",
+      "flax.typing",
+      "FlaxId",
+      "Callable",
+      "flax.core.scope",
+      "functools",
+      "numpy",
+      "kw_only_dataclasses",
+      "flax",
+      "flax.linen",
+      "Optional",
+      "typing",
+      "inspect",
+      "typing_extensions",
+      "dataclasses",
+      "pretty_repr",
+      "threading",
+      "collections.abc",
+      "flax.ids",
+      "FrozenDict",
+      "Scope",
+      "linen",
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/normalization.py",
+    "dependencies": [
+      "functools",
+      "lax",
+      "initializers",
+      "dtypes",
+      "numpy",
+      "collections.abc",
+      "optax",
+      "Any",
+      "flax.linen",
+      "flax",
+      "jax.numpy",
+      "Iterable",
+      "flax.typing",
+      "jax",
+      "typing",
+      "dataclasses",
+      "jax.nn"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/linen/experimental/layers_with_named_axes.py",
+    "dependencies": [
+      "lax",
+      "initializers",
+      "collections.abc",
+      "Any",
+      "param_with_axes",
+      "flax",
+      "flax.linen",
+      "linen",
+      "jax.numpy",
+      "jax",
+      "flax.typing",
+      "typing",
+      "Callable",
+      "dataclasses",
+      "flax.linen.partitioning"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "flax/oss/ .git-blame-ignore-revs",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/tensorboard_test.py",
+    "dependencies": [
+      "absl.testing",
+      "tensorboard.backend.event_processing",
+      "pathlib",
+      "itertools",
+      "tempfile",
+      "tensor_util",
+      "tensorboard.util",
+      "tensorflow",
+      "numpy",
+      "SummaryWriter",
+      "flax.metrics.tensorboard",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/early_stopping_test.py",
+    "dependencies": [
+      "flax.training",
+      "absl.testing",
+      "early_stopping",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/download_dataset_metadata.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/serialization_test.py",
+    "dependencies": [
+      "Any",
+      "flax.core",
+      "serialization",
+      "absltest",
+      "flax.training",
+      "absl.testing",
+      "freeze",
+      "jax.tree_util",
+      "Partial",
+      "collections",
+      "jax.numpy",
+      "optax",
+      "pytest",
+      "flax",
+      "jax",
+      "typing",
+      "msgpack",
+      "train_state",
+      "platform",
+      "random",
+      "linen",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/io_test.py",
+    "dependencies": [
+      "absl.testing",
+      "errors",
+      "tempfile",
+      "flax",
+      "os",
+      "tensorflow",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/flaxlib_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flaxlib",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/struct_test.py",
+    "dependencies": [
+      "absl.testing",
+      "jax._src.tree_util",
+      "struct",
+      "prefix_errors",
+      "Any",
+      "flax",
+      "jax",
+      "typing",
+      "dataclasses",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/import_test.ipynb",
+    "dependencies": [
+      "flax.training",
+      "everything.",
+      "flax.metrics",
+      "tensorboard",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/jax_utils_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "numpy",
+      "parameterized",
+      "jax_utils",
+      "flax",
+      "os",
+      "jax.numpy",
+      "jax",
+      "wraps",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/cursor_test.py",
+    "dependencies": [
+      "flax.training",
+      "CursorFindError",
+      "absl.testing",
+      "freeze",
+      "optax",
+      "Any",
+      "flax",
+      "flax.linen",
+      "jax.numpy",
+      "flax.cursor",
+      "flax.errors",
+      "flax.core",
+      "jax",
+      "AccessType",
+      "typing",
+      "dataclasses",
+      "train_state",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/traceback_util_test.py",
+    "dependencies": [
+      "jax._src",
+      "absl.testing",
+      "traceback_util",
+      "contextlib",
+      "numpy",
+      "sys",
+      "flax",
+      "traceback",
+      "random",
+      "linen",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/run_all_tests.sh",
+    "dependencies": [
+      "...",
+      "config",
+      "errors",
+      "flax",
+      "jax",
+      "which"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/colab_tpu_jax_version.ipynb",
+    "dependencies": [
+      "jax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/traverse_util_test.py",
+    "dependencies": [
+      "absl.testing",
+      "freeze",
+      "optax",
+      "flax",
+      "collections",
+      "jax.numpy",
+      "jax",
+      "flax.core",
+      "numpy",
+      "absltest",
+      "traverse_util"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/pickle_test.py",
+    "dependencies": [
+      "absl.testing",
+      "pickle",
+      "flax.errors",
+      "FlaxError",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/configurations_test.py",
+    "dependencies": [
+      "absl.testing",
+      "mock",
+      "bool_flag",
+      "unittest",
+      "absltest",
+      "flax.configurations"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/checkpoints_test.py",
+    "dependencies": [
+      "flax.training",
+      "orbax.checkpoint",
+      "absl.testing",
+      "config",
+      "numpy",
+      "copy",
+      "pathlib",
+      "Any",
+      "checkpoints",
+      "flax",
+      "linen",
+      "os",
+      "jax",
+      "typing",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/metrics_test.py",
+    "dependencies": [
+      "absl.testing",
+      "numpy",
+      "parameterized",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/transforms_test.py",
+    "dependencies": [
+      "checkify",
+      "general",
+      "absltest",
+      "jax.experimental",
+      "partial",
+      "absl.testing",
+      "parameterized",
+      "jax.numpy",
+      "functools",
+      "optax",
+      "flax.nnx.transforms",
+      "flax",
+      "os",
+      "jax",
+      "typing",
+      "nnx",
+      "dataclasses",
+      "errors",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/rngs_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "errors",
+      "Any",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "typing",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/filters_test.py",
+    "dependencies": [
+      "absl.testing",
+      "nnx",
+      "absltest",
+      "flax"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/variable_test.py",
+    "dependencies": [
+      "absl.testing",
+      "pytest",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "typing",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/module_test.py",
+    "dependencies": [
+      "deepcopy",
+      "cloudpickle",
+      "absl.testing",
+      "platform",
+      "numpy",
+      "copy",
+      "parameterized",
+      "errors",
+      "pickle",
+      "dataclasses",
+      "tempfile",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "typing",
+      "TypeVar",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/partitioning_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/ids_test.py",
+    "dependencies": [
+      "absl.testing",
+      "copy",
+      "ids",
+      "flax.nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/summary_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flax",
+      "jax.numpy",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/spmd_test.py",
+    "dependencies": [
+      "absl.testing",
+      "jax.sharding",
+      "parameterized",
+      "optax",
+      "PartitionSpec",
+      "flax",
+      "os",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/graph_utils_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "threading",
+      "absl.testing",
+      "optax",
+      "Any",
+      "dataclasses",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "jax",
+      "collections",
+      "numpy",
+      "typing",
+      "Thread",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/integration_test.py",
+    "dependencies": [
+      "orbax.checkpoint",
+      "absl.testing",
+      "numpy",
+      "parameterized",
+      "optax",
+      "tempfile",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "typing",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/mutable_array_test.py",
+    "dependencies": [
+      "absl.testing",
+      "numpy",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "flax.errors",
+      "jax",
+      "nnx",
+      "dataclasses",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/containers_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flax",
+      "jax.numpy",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/test_traversals.py",
+    "dependencies": [
+      "absl.testing",
+      "freeze",
+      "traversals",
+      "flax.nnx",
+      "flax.core",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/optimizer_test.py",
+    "dependencies": [
+      "absl.testing",
+      "numpy",
+      "parameterized",
+      "optax",
+      "flax",
+      "jax.numpy",
+      "jax",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/state_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flax",
+      "jax",
+      "numpy",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/helpers_test.py",
+    "dependencies": [
+      "absl.testing",
+      "optax",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/bridge/module_test.py",
+    "dependencies": [
+      "MODULE_CONTEXT",
+      "absl.testing",
+      "absltest",
+      "numpy",
+      "flax.linen.dtypes",
+      "Any",
+      "flax",
+      "linen",
+      "os",
+      "jax.numpy",
+      "flax.nnx",
+      "flax.nnx.bridge.module",
+      "jax",
+      "typing",
+      "nnx",
+      "bridge",
+      "promote_dtype"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/bridge/wrappers_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flax",
+      "linen",
+      "os",
+      "jax.numpy",
+      "jax",
+      "flax.nnx",
+      "numpy",
+      "nnx",
+      "bridge",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/nn/linear_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "numpy",
+      "parameterized",
+      "Precision",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "flax.typing",
+      "jax",
+      "Dtype",
+      "typing",
+      "nnx",
+      "jax.lax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/nn/normalization_test.py",
+    "dependencies": [
+      "absl.testing",
+      "numpy",
+      "parameterized",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "flax.typing",
+      "jax",
+      "Dtype",
+      "typing",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/nn/recurrent_test.py",
+    "dependencies": [
+      "absl.testing",
+      "initializers",
+      "numpy",
+      "flax.nnx.nn",
+      "flax",
+      "random",
+      "linen",
+      "jax",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/nn/lora_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flax",
+      "jax",
+      "numpy",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/nn/conv_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "PaddingLike",
+      "collections.abc",
+      "numpy",
+      "parameterized",
+      "Sequence",
+      "Precision",
+      "flax",
+      "linen",
+      "flax.typing",
+      "jax",
+      "typing",
+      "nnx",
+      "jax.lax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/nn/stochastic_test.py",
+    "dependencies": [
+      "pytest",
+      "flax",
+      "jax.numpy",
+      "numpy",
+      "nnx"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/nn/attention_test.py",
+    "dependencies": [
+      "jax.experimental",
+      "combine_masks",
+      "absl.testing",
+      "flax.nnx.nn.attention",
+      "numpy",
+      "parameterized",
+      "flax",
+      "linen",
+      "typing",
+      "enable_x64",
+      "flax.typing",
+      "jax",
+      "Dtype",
+      "Precision",
+      "nnx",
+      "jax.lax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/nnx/nn/embed_test.py",
+    "dependencies": [
+      "absl.testing",
+      "parameterized",
+      "flax",
+      "linen",
+      "flax.typing",
+      "jax",
+      "numpy",
+      "Dtype",
+      "typing",
+      "nnx",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/core_scope_test.py",
+    "dependencies": [
+      "absl.testing",
+      "config",
+      "errors",
+      "LazyRng",
+      "flax",
+      "Scope",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "absltest",
+      "flax.core.scope"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/core_frozen_dict_test.py",
+    "dependencies": [
+      "absl.testing",
+      "FrozenDict",
+      "flax.core",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/core_meta_test.py",
+    "dependencies": [
+      "jax.experimental",
+      "absl.testing",
+      "errors",
+      "mesh_utils",
+      "flax",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "init",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/core_lift_test.py",
+    "dependencies": [
+      "absl.testing",
+      "FrozenDict",
+      "errors",
+      "flax",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_tied_autoencoder_test.py",
+    "dependencies": [
+      "absl.testing",
+      "dataclass",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "init",
+      "dataclasses",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_attention_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "lax",
+      "collections.abc",
+      "numpy",
+      "flax.core",
+      "jax",
+      "Array",
+      "Callable",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_dense_test.py",
+    "dependencies": [
+      "absl.testing",
+      "dataclass",
+      "struct",
+      "Any",
+      "flax",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "Array",
+      "typing",
+      "dataclasses",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_vmap_test.py",
+    "dependencies": [
+      "absl.testing",
+      "collections.abc",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "Array",
+      "Callable",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_big_resnets_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "Array",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_scan_test.py",
+    "dependencies": [
+      "absl.testing",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "Array",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_resnet_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "Array",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_flow_test.py",
+    "dependencies": [
+      "absl.testing",
+      "dataclass",
+      "collections.abc",
+      "numpy",
+      "Sequence",
+      "Any",
+      "jax.scipy.linalg",
+      "random",
+      "expm",
+      "flax.core",
+      "jax",
+      "Array",
+      "typing",
+      "dataclasses",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_weight_std_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "collections.abc",
+      "Sequence",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "Array",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_custom_vjp_test.py",
+    "dependencies": [
+      "functools",
+      "partial",
+      "absl.testing",
+      "collections.abc",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "Array",
+      "Callable",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/core/design/core_auto_encoder_test.py",
+    "dependencies": [
+      "absl.testing",
+      "dataclass",
+      "collections.abc",
+      "random",
+      "jax",
+      "flax.core",
+      "numpy",
+      "Array",
+      "Callable",
+      "dataclasses",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_recurrent_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flip_sequences",
+      "flax",
+      "flax.linen.recurrent",
+      "linen",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_activation_test.py",
+    "dependencies": [
+      "absl.testing",
+      "numpy",
+      "flax",
+      "linen",
+      "random",
+      "jax.numpy",
+      "jax",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_combinators_test.py",
+    "dependencies": [
+      "absl.testing",
+      "collections.abc",
+      "Sequence",
+      "Any",
+      "flax",
+      "random",
+      "linen",
+      "jax",
+      "numpy",
+      "typing",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_attention_test.py",
+    "dependencies": [
+      "jax.nn",
+      "jax.experimental",
+      "absl.testing",
+      "lax",
+      "initializers",
+      "numpy",
+      "errors",
+      "flax",
+      "pop",
+      "linen",
+      "jax.numpy",
+      "flax.core",
+      "jax",
+      "enable_x64",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_linear_test.py",
+    "dependencies": [
+      "functools",
+      "jax.nn",
+      "absl.testing",
+      "initializers",
+      "flax",
+      "random",
+      "jax.numpy",
+      "jax",
+      "linen",
+      "numpy",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_transforms_test.py",
+    "dependencies": [
+      "copy",
+      "Any",
+      "unittest",
+      "_HashableProxy",
+      "flax.core",
+      "serialization",
+      "absltest",
+      "flax.linen.transforms",
+      "partial",
+      "absl.testing",
+      "jax.numpy",
+      "operator",
+      "Callable",
+      "functools",
+      "struct",
+      "flax",
+      "jax",
+      "typing",
+      "collections.abc",
+      "errors",
+      "linen",
+      "random",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_batch_apply_test.py",
+    "dependencies": [
+      "absl.testing",
+      "flax",
+      "linen",
+      "jax.numpy",
+      "jax",
+      "numpy",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/kw_only_dataclasses_test.py",
+    "dependencies": [
+      "io",
+      "Iterator",
+      "absl.testing",
+      "collections.abc",
+      "Protocol",
+      "kw_only_dataclasses",
+      "flax.linen",
+      "flax",
+      "linen",
+      "abc",
+      "typing",
+      "inspect",
+      "dataclasses",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_meta_test.py",
+    "dependencies": [
+      "jax.experimental",
+      "absl.testing",
+      "jax.sharding",
+      "mesh_utils",
+      "flax",
+      "random",
+      "Mesh",
+      "jax",
+      "linen",
+      "numpy",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_test.py",
+    "dependencies": [
+      "functools",
+      "flax.training",
+      "absl.testing",
+      "numpy",
+      "copy",
+      "optax",
+      "Any",
+      "ids",
+      "flax",
+      "flax.linen",
+      "linen",
+      "random",
+      "jax.numpy",
+      "jax",
+      "typing",
+      "fp8_ops",
+      "train_state",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/partitioning_test.py",
+    "dependencies": [
+      "jax.experimental",
+      "absl.testing",
+      "freeze",
+      "mesh_utils",
+      "flax",
+      "flax.linen",
+      "random",
+      "jax.numpy",
+      "linen",
+      "flax.core",
+      "jax",
+      "partitioning",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/summary_test.py",
+    "dependencies": [
+      "absl.testing",
+      "struct",
+      "summary",
+      "flax",
+      "flax.linen",
+      "enum",
+      "random",
+      "jax.numpy",
+      "jax",
+      "linen",
+      "numpy",
+      "Array",
+      "absltest",
+      "flax.core.scope"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_dtypes_test.py",
+    "dependencies": [
+      "jax.experimental",
+      "absl.testing",
+      "dtypes",
+      "flax.linen",
+      "jax",
+      "numpy",
+      "enable_x64",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/linen_module_test.py",
+    "dependencies": [
+      "initializers",
+      "copy",
+      "enum",
+      "flax.core",
+      "absltest",
+      "absl.testing",
+      "patch",
+      "contextlib",
+      "config",
+      "cloudpickle_fast",
+      "sys",
+      "jax.numpy",
+      "operator",
+      "Callable",
+      "jax.nn",
+      "functools",
+      "compact",
+      "cloudpickle",
+      "flax",
+      "flax.linen",
+      "unittest.mock",
+      "jax",
+      "inspect",
+      "typing",
+      "TemporaryDirectory",
+      "dataclasses",
+      "collections.abc",
+      "FrozenDict",
+      "tempfile",
+      "gc",
+      "random",
+      "linen",
+      "numpy"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "tests/linen/initializers_test.py",
+    "dependencies": [
+      "absl.testing",
+      "initializers",
+      "flax",
+      "flax.linen",
+      "random",
+      "jax.numpy",
+      "jax",
+      "linen",
+      "numpy",
+      "absltest"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "images/flax_logo.svg",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
